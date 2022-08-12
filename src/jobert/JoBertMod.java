@@ -8,7 +8,7 @@ import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
-//import jobert.content.*;
+import jobert.content.*;
 
 public class JoBertMod extends Mod{
 
