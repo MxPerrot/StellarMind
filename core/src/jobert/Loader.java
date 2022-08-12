@@ -5,8 +5,8 @@ import mindustry.ctype.*;
 
 public class Loader implements ContentList{
     private final ContentList[] contents = {
-        new JBPlanets();
-        //new NFICHIER();
+        new JBPlanets()
+        //new NFICHIER(),
     };
 
     public void load(){
