@@ -30,8 +30,7 @@ public class JoBertMod extends Mod{
         });
     }
 
-    public static void loadContent(){
-        var classInstance = new StaticContextMethod();
+    private static void loadContent(){
         JBPlanets.load();
     }
 }
