@@ -1,4 +1,4 @@
-package jobert.content
+package jobert.content;
 
 import arc.graphics.Color;
 import arc.math.Mathf;;
@@ -16,7 +16,7 @@ public class JobertPlanet implements ContentList {
     public void load() {
         testing = new Planet("testing", Planets.sun, 1f, 3) {{
             localizedName = "Testing Planet";
-            generator = new ErekirPlanetGenerator;
+            generator = new ErekirPlanetGenerator();
             startSector = 1;
             hasAtmosphere = true;
             atmosphereColor = Color.valueOf("8c3149");
