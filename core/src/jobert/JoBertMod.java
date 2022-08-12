@@ -25,7 +25,7 @@ public class JoBertMod extends Mod{
 
     public JoBertMod(){
         Events.on(ClientLoadEvent.class, e -> {
-            JoBertPlanets.load;
+            JoBertPlanets.load();
         });
 
     @Override
