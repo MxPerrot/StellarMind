@@ -30,7 +30,6 @@ public class JoBertMod extends Mod{
         });
     }
 
-    @Override
     public static void loadContent(){
         JBPlanets.load();
     }
