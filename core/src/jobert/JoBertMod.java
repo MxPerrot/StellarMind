@@ -26,11 +26,11 @@ import jobert.content.*;
 public class JoBertMod extends Mod{
     public JoBertMod (){
         Events.on(ClientLoadEvent.class, e -> {
-            loadSettings();
+            logInfo("JBMod Loaded.");
         });
     }
-
-    private static void loadContent(){
-        JBPlanets.load();
-    }
+    //@Override
+    //public void loadContent(){
+        //JBPlanets.load();
+    //}
 }
