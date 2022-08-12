@@ -1,4 +1,4 @@
-package jobert.src;
+package jobert.Loader;
 
 import mindustry.ctype.*;
 
