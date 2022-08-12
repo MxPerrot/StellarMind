@@ -5,7 +5,7 @@ version '1.0'
 targetCompatibility = 8
 sourceCompatibility = JavaVersion.VERSION_16
 
-sourceSets.main.java.srcDirs = ["src"]
+sourceSets.main.java.srcDirs = ["core/src"]
 
 repositories{
     mavenCentral()
