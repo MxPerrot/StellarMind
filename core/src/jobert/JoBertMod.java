@@ -21,6 +21,7 @@ import mindustry.input.*;
 import static arc.Core.*;
 import static mindustry.Vars.*;
 // Import fichier mod
+import jobert.Loader;
 import jobert.content.*;
 
 public class JoBertMod extends Mod{
@@ -29,8 +30,8 @@ public class JoBertMod extends Mod{
             Log.info("JBMod Loaded.");
         });
     }
-    //@Override
-    //public void loadContent(){
-        //JBPlanets.load();
-    //}
+    @Override
+    public void loadContent(){
+        new Loader().load();
+    }
 }
