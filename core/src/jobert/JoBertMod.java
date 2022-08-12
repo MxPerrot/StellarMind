@@ -24,13 +24,14 @@ import static mindustry.Vars.*;
 import jobert.content.*;
 
 public class JoBertMod extends Mod{
-    public JoBertMod (){
+    public static JoBertMod (){
         Events.on(ClientLoadEvent.class, e -> {
             loadSettings();
         });
     }
 
-    public static void loadContent(){
-        JBPlanets.load();
+    public void loadContent(){
+        var classInstance = new StaticContextVariable();
+        classInstance.JBPlanets.load();
     }
 }
