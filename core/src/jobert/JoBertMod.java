@@ -21,17 +21,17 @@ import mindustry.input.*;
 import static arc.Core.*;
 import static mindustry.Vars.*;
 // Import fichier mod
-import jobert.content.JBPlanets;
+import jobert.content.*;
 
 public class JoBertMod extends Mod{
     public JoBertMod (){
         Events.on(ClientLoadEvent.class, e -> {
-            Log.info("JoBert Loaded.");
+            loadSettings
         });
     }
 
     @Override
     public void loadContent(){
-        JBPlanets.load();
+        load(JBPlanets);
     }
 }
