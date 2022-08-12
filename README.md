@@ -3,8 +3,12 @@
 > - J = Jojo - H = Hubert
 
 
-- Pour Importer en jeu : Mod > Importer un mod > Importer un fichier (.zip) > Relancer (Remplace automatiquement le mod si déjà installé).
-- Tout sur les >>> [Sprites](https://mindustrygame.github.io/wiki/modding/4-spriting).
+- Pour Importer en jeu : Mod > Importer un mod > Importer un fichier (.jar) > Relancer
+
+- Liens utiles :
+  - [GitHub](https://github.com/Anuken/Mindustry) Mindustry
+  - [New Wiki](https://mindustrygame.github.io/wiki/) Mindustry
+  - [Old Wiki](https://mindustrygame.github.io/docs/index.html) Mindustry
 
 - Toutes les dates sont conformes à la norme ISO-8601 (YYYY-MM-DD).
 
