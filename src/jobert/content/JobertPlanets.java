@@ -10,7 +10,7 @@ import mindustry.type.*;
 //import jobert.maps.generators.PLANET;
 //import jobert.maps.generators.PLANET;
 
-public class JobertPlanets implements ContentType(planet) {{
+public class JobertPlanets implements ContentType(planet) {
     public static Planet testing;
 
     public void load() {
@@ -26,5 +26,5 @@ public class JobertPlanets implements ContentType(planet) {{
             orbitRadius = 4f;
             alwaysUnlocked = true;
         }};
-    }
-}}
+    };
+}
