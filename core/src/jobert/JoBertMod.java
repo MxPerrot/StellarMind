@@ -22,8 +22,15 @@ import jobert.content.*;
 
 public class JoBertMod extends Mod{
 
-    @Override
-    public void loadContent(){
+    public void loadContent() {
         JobertPlanets.load();
+        PMStatusEffects.loa();
+        PMLiquids.load();
+        PMUnitTypes.load();
+        PMItems.load();
+        PMBullets.load();
+        PMPlanets.load();
+        PMBlocks.load();
+        PMTechTree.load();
     }
 }
