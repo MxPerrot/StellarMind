@@ -1,7 +1,7 @@
 ### Usine Cryofluid Tier 2
 
 type: GenericCrafter
-name: cryofluidLargeMixer
+name: SuperCryofluidMixer
 
 size: 3
 category: crafting
@@ -37,6 +37,7 @@ consumes: {
   water/0.3
   ]
 }
+
 outputLiquids: [
   cryofluid/0.333333333
 ]
