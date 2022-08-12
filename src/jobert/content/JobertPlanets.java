@@ -3,14 +3,14 @@ package jobert.content;
 import arc.graphics.Color;
 import arc.math.Mathf;
 import mindustry.content.Planets;
-import mindustry.ctype.ContentList;
+import mindustry.ctype.ContentType;
 import mindustry.graphics.g3d.HexMesh;
 import mindustry.graphics.g3d.SunMesh;
 import mindustry.type.Planet;
 //import jobert.maps.generators.PLANET;
 //import jobert.maps.generators.PLANET;
 
-public class JobertPlanets implements ContentList {
+public class JobertPlanets implements ContentType {
     public static Planet testing;
 
     public void load() {
