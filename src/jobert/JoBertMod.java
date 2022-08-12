@@ -11,7 +11,7 @@ import mindustry.ui.dialogs.*;
 
 public class JoBertMod extends Mod{
 
-    public JoBertMod{
+    public JoBertMod(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
         //listen for game load event
