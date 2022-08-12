@@ -22,7 +22,7 @@ import jobert.content.*;
 
 public class JBMod extends Mod{
 
-    public void loadContent {
+    public void loadContent() {
         JBPlanets.load();
     };
 }
