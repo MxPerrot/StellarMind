@@ -18,6 +18,7 @@ import mindustry.mod.Mods.*;
 import mindustry.type.*;
 import mindustry.input.*;
 
+import static arc.Core.*;
 import static mindustry.Vars.*;
 // Import fichier mod
 import jobert.content.JBPlanets;
