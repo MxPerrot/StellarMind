@@ -1,23 +1,10 @@
-#the mod name as displayed in-game
-displayName: "Jobert Factories"
-
-#the internal name of your mod
+displayName: "JoBert Factories"
 name: "jobert_factories"
-
-#your name
 author: "Jobert Industries"
-
-#the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
-
-#the mod description as seen in the mod dialog
-description: "Adds Tier 2 and Tier 3 factories"
-
-#the mod version
+description: "Adds lot of things that are not existant for now."
+subtitle: "Something by JoBert Industries"
 version: 1.0
-
-#the minimum game build required to run this mod
 minGameVersion: 136
 
-#this is a java mod
 java: true
+main: "jobert.JoBertMod"
