@@ -32,14 +32,21 @@
 
 | Etat| Dev | Description |
 |:-|:-:|:-:|
-| FINI | Jojo | Faire les dossiers. |
-| EN COURS | Hubert | Metaglass Usine Tier 2. |
-| EN COURS | Jojo | Usine Cryofluid Tier 3. |
-| EN COURS | Jojo | Texture pour les usine. |
+| EN COURS | Jojo | Faire les dossiers. |
+| EN COURS| J & H | Transition Java. |
+| PAUSE | Hubert | Metaglass Usine Tier 2. |
+| PAUSE | Jojo | Usine Cryofluid Tier 3. |
+| PAUSE | Jojo | Texture pour les usine. |
 
 
 ## À FAIRE
 
+
+### Java
+
+- Finir le fichier main **JoBertMod.java**
+- Tout import les fichiers utiles
+- et plein d'autres choses...
 
 ### Usines
 
