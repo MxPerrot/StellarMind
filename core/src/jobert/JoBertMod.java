@@ -25,8 +25,4 @@ public class JoBertMod extends Mod{
     public void loadContent(){
         JobertPlanets.load();
     }
-    @Override
-    public void loadContent(){
-        Log.info("JoBert Industries successfully loaded!");
-    }
 }
