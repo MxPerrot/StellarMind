@@ -24,6 +24,6 @@ public class JoBertMod extends Mod{
 
     @Override
     public void loadContent(){
-        JobertPlanet.load();
+        JobertPlanets.load();
     }
 }
