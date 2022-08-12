@@ -1,4 +1,4 @@
-package example;
+package jobert;
 
 import arc.*;
 import arc.util.*;
