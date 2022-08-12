@@ -1,7 +1,7 @@
 package jobert.content;
 
 import arc.graphics.Color;
-import arc.math.Mathf;;
+import arc.math.Mathf;
 import mindustry.content.Planets;
 import mindustry.ctype.ContentList;
 import mindustry.graphics.g3d.HexMesh;
@@ -10,7 +10,7 @@ import mindustry.type.Planet;
 //import jobert.maps.generators.PLANET;
 //import jobert.maps.generators.PLANET;
 
-public class JobertPlanet implements ContentList {
+public class JobertPlanets implements ContentList {
     public static Planet testing;
 
     public void load() {
