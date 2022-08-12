@@ -26,7 +26,7 @@ import jobert.content.*;
 public class JoBertMod extends Mod{
     public JoBertMod (){
         Events.on(ClientLoadEvent.class, e -> {
-            logInfo("JBMod Loaded.");
+            Log.info("JBMod Loaded.");
         });
     }
     //@Override
