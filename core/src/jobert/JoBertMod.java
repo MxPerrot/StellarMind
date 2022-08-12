@@ -27,10 +27,9 @@ public class JoBertMod extends Mod{
         Events.on(ClientLoadEvent.class, e -> {
             JobertPlanets.load();
         });
-
+    }
     @Override
     public void loadContent(){
         Log.info("JoBert Industries successfully loaded!");
     }
-
 }
