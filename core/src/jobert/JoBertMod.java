@@ -23,7 +23,7 @@ import jobert.content.*;
 
 public class JoBertMod extends Mod{
 
-    public JoBertMod(){
+    public JobertMod(){
         Events.on(ClientLoadEvent.class, e -> {
             JoBertPlanets.load();
         });
