@@ -1,6 +1,5 @@
 package jobert;
 
-import acontent.ui.*;
 import arc.*;
 import arc.audio.*;
 import arc.func.*;
@@ -23,10 +22,8 @@ import jobert.content.*;
 
 public class JoBertMod extends Mod{
 
-    public JoBertMod(){
-        Events.on(ClientLoadEvent.class, e -> {
-            JobertPlanets.load();
-        });
+    public void loadContent(){
+        JobertPlanets.load();
     }
     @Override
     public void loadContent(){
