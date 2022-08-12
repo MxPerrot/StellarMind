@@ -2,15 +2,15 @@ package jobert.content;
 
 import arc.graphics.Color;
 import arc.math.Mathf;
-import mindustry.content.Planets;
-import mindustry.ctype.ContentType;
+import mindustry.content.*;
+import mindustry.ctype.*;
 import mindustry.graphics.g3d.HexMesh;
 import mindustry.graphics.g3d.SunMesh;
-import mindustry.type.Planet;
+import mindustry.type.*;
 //import jobert.maps.generators.PLANET;
 //import jobert.maps.generators.PLANET;
 
-public class JobertPlanets implements ContentType {
+public class JobertPlanets implements ContentType(planet) {
     public static Planet testing;
 
     public void load() {
