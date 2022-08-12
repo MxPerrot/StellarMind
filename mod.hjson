@@ -3,7 +3,7 @@ name: "jobert_factories"
 author: "Jobert Industries"
 description: "Adds lot of things that are not existant for now."
 subtitle: "Something by JoBert Industries"
-version: 1.0
+version: 0.1 beta
 minGameVersion: 136
 
 java: true
