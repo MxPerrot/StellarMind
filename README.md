@@ -20,8 +20,7 @@
 ## CHAT RAPIDE
 
 #### Da J
-> Planète très bug, risque de crash si j'ai pas fix/enlevé le problème. Ne pas cliquer sur "Décoller" sur la nouvelle planète (risque de crash)
-
+> Contenu dans le mod : Planète - Le mod ne charge aucun contenu, je sais pas comment faire :c
 
 #### Big H
 > ***
