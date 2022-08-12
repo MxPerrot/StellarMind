@@ -10,7 +10,7 @@ import mindustry.type.*;
 //import jobert.maps.generators.PLANET;
 //import jobert.maps.generators.PLANET;
 
-public class JobertPlanets implements ContentType(planet) {
+public class JobertPlanets implements Planet {
     public static Planet testing;
 
     public void load() {
