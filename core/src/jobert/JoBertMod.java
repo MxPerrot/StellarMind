@@ -20,7 +20,7 @@ import mindustry.input.*;
 // Import fichier mod
 import jobert.content.*;
 
-public class JBMod extends Mod{
+public class JoBertMod extends Mod{
 
     public void loadContent() {
         JBPlanets.load();
