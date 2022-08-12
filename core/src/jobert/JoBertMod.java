@@ -22,15 +22,7 @@ import jobert.content.*;
 
 public class JoBertMod extends Mod{
 
-    public void loadContent() {
-        JobertPlanets.load();
-        PMStatusEffects.loa();
-        PMLiquids.load();
-        PMUnitTypes.load();
-        PMItems.load();
-        PMBullets.load();
-        PMPlanets.load();
-        PMBlocks.load();
-        PMTechTree.load();
-    }
+    Events.on(ClientLoadEvent.class, e -> {
+        JBPlanets.load();
+    )};
 }
