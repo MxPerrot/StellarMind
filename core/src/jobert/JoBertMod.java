@@ -21,11 +21,13 @@ import mindustry.input.*;
 import jobert.content.*;
 
 public class JoBertMod extends Mod{
-    public JoBertMod () {
-
-    @Override
-    public void loadContent() {
-        JBPlanets.load();
+    public JoBertMod (){
+        Events.on(ClientLoadEvent.class, e -> {
+            Log.info("JoBert Loaded.");
+        });
     }
+    @Override
+    public void loadContent(){
+        JBPlanets.load();
     }
 }
