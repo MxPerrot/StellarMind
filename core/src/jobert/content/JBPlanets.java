@@ -17,8 +17,9 @@ import mindustry.world.meta.*;
 import mindustry.content.*;
 import jobert.*;
 
-public class JobertPlanets{
-    public static Planet testing;
+public class JBPlanets {
+    public static Planet
+    testing;
 
     public void load() {
         
