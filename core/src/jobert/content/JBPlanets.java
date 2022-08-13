@@ -12,16 +12,16 @@ import jobert.*;
 public class JBPlanets {
     
     public static Planet
-    elios
+    elios,
     arkans,
     moon;
     
     public static void load() {
         
         elios = new Planet("elios", Planets.sun, 2.4f, 3) {{
-            localizedName= "Elios"
-            description = "A star."
-            hasAtmosphere= true
+            localizedName= "Elios";
+            description = "A star.";
+            hasAtmosphere= true;
             meshLoader = () -> new SunMesh(
                 this, 4, 5, 0.3f, 1.0f, 1.2f, 1, 1.3f,
                 Color.valueOf("0fd0d4"),
