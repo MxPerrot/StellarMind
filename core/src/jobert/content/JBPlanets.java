@@ -60,8 +60,8 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 0.6f, 0) {{
-            localizedName = "Stella";
+        stella = new Planet("stella", arkans, 0.6f, 1) {{
+            localizedName = "Stella (Bug)";
             description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
             // Atmosphère
