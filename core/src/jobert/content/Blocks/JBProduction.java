@@ -1,4 +1,4 @@
-package braindustry.content.Blocks;
+package jobert.content.Blocks;
 
 import arc.math.geom.Vec3;
 import mindustry.content.Fx;
