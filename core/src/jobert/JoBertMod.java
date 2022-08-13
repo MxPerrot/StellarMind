@@ -2,7 +2,6 @@ package jobert;
 
 import mindustry.mod.*;
 import jobert.content.*;
-import jobert.maps.generators.*;
 
 public class JoBertMod extends Mod{
 
