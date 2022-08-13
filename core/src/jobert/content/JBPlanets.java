@@ -39,7 +39,7 @@ public class JBPlanets {
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 3, 0.8f) {{
+        arkans = new Planet("arkans", elios, 10f, 2) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
