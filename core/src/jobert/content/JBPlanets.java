@@ -33,7 +33,7 @@ public class JBPlanets {
             );
             lightColor = Color.valueOf("0983b0");
             orbitRadius = 143.5f;
-            drawOrbit = false
+            drawOrbit = false;
             bloom = true;
         }};
 
