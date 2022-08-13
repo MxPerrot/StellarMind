@@ -13,7 +13,6 @@ public class JBPlanets {
     
     public static Planet
     testing;
-    moon;
     
     public static void load() {
         
