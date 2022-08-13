@@ -8,6 +8,8 @@ import mindustry.maps.planet.*;
 import mindustry.maps.generators.*;
 import mindustry.world.*;
 import jobert.*;
+//import jobert.maps.generators.ArkansPlanetGenerator;
+//import jobert.maps.generators.StellaPlanetGenerator;
 
 public class JBPlanets {
     
