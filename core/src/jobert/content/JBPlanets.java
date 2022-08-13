@@ -25,7 +25,7 @@ public class JBPlanets {
             // Atmosphère
             hasAtmosphere = false;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 2);
+            meshLoader = () -> new HexMesh(this, 7);
             // Orbite 
             orbitRadius = 8.0f;
 
