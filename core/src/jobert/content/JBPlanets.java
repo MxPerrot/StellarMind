@@ -12,7 +12,7 @@ import jobert.*;
 public class JBPlanets {
     
     public static Planet
-        moon;
+    moon;
     
     public static void load() {
         
