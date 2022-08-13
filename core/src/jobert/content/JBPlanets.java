@@ -20,7 +20,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        elios = new Planet("elios", Planets.sun, 3.4f, 4) {{
+        elios = new Planet("elios", Planets.sun, 3.8f, 4) {{
             localizedName= "Elios";
             description = "A star.";
             hasAtmosphere= true;
@@ -34,12 +34,12 @@ public class JBPlanets {
                 Color.valueOf("24b7ed")
             );
             lightColor = Color.valueOf("0983b0");
-            orbitRadius = 163.5f;
+            orbitRadius = 200f;
             drawOrbit = false;
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 10f, 2) {{
+        arkans = new Planet("arkans", elios, 2f, 2) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -60,7 +60,7 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 0.9f, 1) {{
+        stella = new Planet("stella", arkans, 0.8f, 1) {{
             localizedName = "Stella";
             description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
