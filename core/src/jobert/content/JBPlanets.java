@@ -47,8 +47,8 @@ public class JBPlanets {
             // Atmosphère
             hasAtmosphere = true;
             atmosphereColor = Color.valueOf("363f9a");
-            atmosphereRadIn = 0.01f;
-            atmosphereRadOut = 0.4f;
+            atmosphereRadIn = 0.02f;
+            atmosphereRadOut = 0.3f;
             // Mesh
             meshLoader = () -> new HexMesh(this, 6);
             cloudMeshLoader = () -> new MultiMesh(
@@ -66,8 +66,8 @@ public class JBPlanets {
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
-            atmosphereRadIn = 0.01f;
-            atmosphereRadOut = 0.4f;
+            atmosphereRadIn = 0.02f;
+            atmosphereRadOut = 0.1f;
             // Mesh
             meshLoader = () -> new HexMesh(this, 5);
             // Orbite 
