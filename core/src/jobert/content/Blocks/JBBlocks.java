@@ -36,6 +36,5 @@ public class JBBlocks {
     public static void load() {
         JBProduction.load();
 
-        };
     }
 }
