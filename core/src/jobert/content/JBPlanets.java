@@ -12,13 +12,13 @@ import jobert.*;
 public class JBPlanets {
     
     public static Planet
-    testing,
+    arkans,
     moon;
     
     public static void load() {
         
 
-        testing = new Planet("arkans", Planets.sun, 1f, 3) {{
+        arkans = new Planet("arkans", Planets.sun, 1f, 3) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
