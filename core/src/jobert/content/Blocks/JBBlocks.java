@@ -18,14 +18,12 @@ import mindustry.graphics.*;
 import mindustry.type.*;
 import mindustry.ui.*;
 import mindustry.world.*;
-import mindustry.world.blocks.defense.turrets.*;
-import mindustry.world.blocks.units.*;
+import mindustry.world.blocks.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
 import static mindustry.Vars.*;
 import static mindustry.type.ItemStack.*;
-import static jobert.content.Blocks.*;
 
 public class JBBlocks {
     public static Block
@@ -45,9 +43,6 @@ public class JBBlocks {
         
         //Walls
         
-        private ContentType[] blocksContent = {
-                new JBProduction(),
-        };
 
     public static void load() {
 
@@ -60,7 +55,7 @@ public class JBBlocks {
                 Items.metaglass, 45
             ));
             size = 3;
-            health = 340;
+            blockHealth = 340;
             destructible = true;
             hasItems = true;
             hasLiquids = true;
