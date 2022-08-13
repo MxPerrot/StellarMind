@@ -1,3 +1,8 @@
+A Java mod for Mindustry that is still very new and in development.
+
+- - -
+
+
 ## INFOS
 [![Mod Build](https://github.com/HubertBDLB/Jobert_Factories/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/HubertBDLB/Jobert_Factories/actions/workflows/build.yml)
 > - J = Jojo - H = Hubert
