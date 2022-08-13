@@ -14,7 +14,7 @@ import mindustry.entities.bullet.*;
 import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
-import mindustry.mod.Mods.*;
+import static mindustry.mod.Mods.*;
 import mindustry.type.*;
 import mindustry.input.*;
 
@@ -26,9 +26,7 @@ import jobert.content.*;
 public class JoBertMod extends Mod{
     public JoBertMod (){
     }
-
     @Override
     public void loadContent(){
-       JBPlanets.load();
     }
 }
