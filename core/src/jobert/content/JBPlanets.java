@@ -31,7 +31,7 @@ public class JBPlanets {
 
             alwaysUnlocked = true;
             
-            launchCandidates = testing,
+            launchCandidates = testing;
         }};
         
 
