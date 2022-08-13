@@ -19,7 +19,7 @@ public class JBBlocks implements ContentList {
         //Power
         
         //Production
-        largeCryofluidMixer,
+        largeCryofluidMixer;
         
         //Units
         
@@ -31,8 +31,9 @@ public class JBBlocks implements ContentList {
                 new JBProduction(),
         };
 
-        public void load() {
-            for (ContentList contentList : blocksContent) {
-                contentList.load();
+    public void load() {
+        for (ContentList contentList : blocksContent) {
+            contentList.load();
         }
+    }
 }
