@@ -21,7 +21,7 @@ public class JBPlanets {
     public static Planet
     testing;
 
-    public void load() {
+    public static void load() {
         
         testing = new Planet("testing", Planets.sun, 1f, 3) {{
             localizedName = "Testing Planet";
