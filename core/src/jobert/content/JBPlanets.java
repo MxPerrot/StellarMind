@@ -5,7 +5,7 @@ import mindustry.content.Planets;
 import mindustry.graphics.g3d.*;
 import arc.graphics.Color;
 import mindustry.maps.planet.*;
-import mindustry.maps.generator.*;
+import mindustry.maps.generators.*;
 import mindustry.world.*;
 import jobert.*;
 
