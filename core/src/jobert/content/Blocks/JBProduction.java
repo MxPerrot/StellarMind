@@ -4,16 +4,15 @@ import arc.math.geom.Vec3;
 import mindustry.content.Fx;
 import mindustry.content.Items;
 import mindustry.content.Liquids;
-import mindustry.ctype.ContentList;
+import mindustry.ctype.ContentType;
 import mindustry.gen.Sounds;
 import mindustry.type.Category;
 import mindustry.type.ItemStack;
 import mindustry.type.LiquidStack;
-import mindustry.world.blocks.production.Drill;
-import mindustry.world.blocks.production.GenericCrafter;
-import mindustry.world.draw.DrawSmelter;
-
-import static jobert.content.Blocks.ModBlocks.*;
+import mindustry.world.blocks.production.*;
+import mindustry.world.blocks.production.*;
+import mindustry.world.draw.*;
+import jobert.content.Blocks.ModBlocks.*;
 
 class JBProduction implements ContentList {
     @Override
