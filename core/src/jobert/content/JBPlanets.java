@@ -16,7 +16,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        moon = new Planet("moon", Planets.Erekir, 1f, 1) {{
+        moon = new Planet("moon", Planets.erekir, 1f, 1) {{
             localizedName = "Test moon";
             description = "A testing moon.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
