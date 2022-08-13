@@ -31,7 +31,7 @@ public class JBPlanets {
                       new HexSkyMesh(this, 1, 0.6f, 0.16f, 5, Color.white.cpy().lerp(Color.valueOf("363f9a"), 0.55f).a(0.75f), 2, 0.45f, 1f, 0.41f)
                               );
             // Orbite 
-            orbitRadius = 2f;
+            orbitRadius = 11.5f;
 
             alwaysUnlocked = true;
         }};
