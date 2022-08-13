@@ -67,7 +67,7 @@ public class JBPlanets {
             atmosphereRadIn = 0.01f;
             atmosphereRadOut = 0.4f;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 2);
+            meshLoader = () -> new HexMesh(this, 5);
             // Orbite 
             orbitRadius = 8.0f;
             alwaysUnlocked = true;
