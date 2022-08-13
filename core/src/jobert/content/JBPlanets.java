@@ -37,7 +37,7 @@ public class JBPlanets {
 
             alwaysUnlocked = true;
         }};
-    
+    };
         
     
     public static Planet
