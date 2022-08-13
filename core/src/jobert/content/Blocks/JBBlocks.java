@@ -71,6 +71,6 @@ public class JBBlocks {
             consumes.liquid(Liquids.water, 0.3f);
             consumes.item(ItemStack.with(Items.titanium, 3));
             outputLiquid = new LiquidStack(cryofluid, 0.333333333f);            
-
+        }};
     }
 }
