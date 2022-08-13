@@ -19,6 +19,7 @@ public class JBBlocks implements ContentList {
         //Power
         
         //Production
+        largeCryofluidMixer,
         
         //Units
         
