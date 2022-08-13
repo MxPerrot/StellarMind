@@ -34,12 +34,12 @@ public class JBPlanets {
                 Color.valueOf("24b7ed")
             );
             lightColor = Color.valueOf("0983b0");
-            orbitRadius = 200f;
+            orbitRadius = 250f;
             drawOrbit = false;
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 2f, 3) {{
+        arkans = new Planet("arkans", elios, 1f, 3) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -60,7 +60,7 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 0.8f, 1) {{
+        stella = new Planet("stella", arkans, 0.6f, 1) {{
             localizedName = "Stella";
             description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
