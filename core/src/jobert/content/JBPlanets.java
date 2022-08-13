@@ -60,16 +60,16 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 0.6f, 1) {{
+        stella = new Planet("stella", arkans, 0.6f, 0) {{
             localizedName = "Stella";
             description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
-            atmosphereRadIn = 0.02f;
-            atmosphereRadOut = 0.1f;
+            atmosphereRadIn = 0.01f;
+            atmosphereRadOut = 0.2f;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 3);
+            meshLoader = () -> new HexMesh(this, 4);
             // Orbite 
             orbitRadius = 6.5f;
             alwaysUnlocked = true;
