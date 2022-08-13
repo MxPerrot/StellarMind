@@ -10,9 +10,10 @@ import mindustry.world.*;
 import jobert.*;
 
 public class JBPlanets {
+    
     public static Planet
-    testing;
-
+        moon;
+    
     public static void load() {
         
         moon = new Planet("moon", JBPlanets.testing, 1f, 1) {{
@@ -37,6 +38,10 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
     
+        
+    
+    public static Planet
+    testing;
     
     public static void load() {
         
@@ -59,7 +64,6 @@ public class JBPlanets {
             // Orbite 
             orbitRadius = 26.5f;
 
-            children = moon;
             alwaysUnlocked = true;
         }};
     }
