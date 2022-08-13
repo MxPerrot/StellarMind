@@ -62,7 +62,7 @@ public class JBBlocks {
 
         // Production
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
-            requirements with(Items.lead, 120, Items.titanium, 130, Items.silicon, 85, Items.metaglass, 45);
+            requirements with(Items.lead, 120; Items.titanium, 130; Items.silicon, 85; Items.metaglass, 45);
             category = Category.crafting;
             size = 3;
             health = 340;
