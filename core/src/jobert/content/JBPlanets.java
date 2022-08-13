@@ -39,7 +39,7 @@ public class JBPlanets {
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 1.5f, 2) {{
+        arkans = new Planet("arkans", elios, 1.5f, 3) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -56,7 +56,7 @@ public class JBPlanets {
                       new HexSkyMesh(this, 1, 0.6f, 0.16f, 5, Color.white.cpy().lerp(Color.valueOf("363f9a"), 0.55f).a(0.75f), 2, 0.45f, 1f, 0.41f)
                               );
             // Orbite 
-            orbitRadius = 32.5f;
+            orbitRadius = 21f;
             alwaysUnlocked = true;
         }};
 
