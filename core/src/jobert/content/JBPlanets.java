@@ -55,8 +55,6 @@ public class JBPlanets {
             orbitRadius = 26.5f;
 
             alwaysUnlocked = true;
-            
-            launchCandidates = Seq<moon>;
         }};
     }
 }
