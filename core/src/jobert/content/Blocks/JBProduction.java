@@ -21,7 +21,7 @@ class JBProduction implements ContentList {
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer") {{
             size = 3;
             //category = Category.crafting;
-            destructible = true
+            destructible = true;
             health = 340;
             requirements(Category.crafting, ItemStack.with(Items.lead, 120, Items.titanium, 130, Items.silicon, 85, Items.metaglass, 45));
 
