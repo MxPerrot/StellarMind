@@ -26,6 +26,7 @@ public class JBPlanets {
         testing = new Planet("testing", Planets.sun, 1f, 3) {{
             localizedName = "Testing Planet";
             description = "A testing planet.";
+            startSector = 1;
             // Atmosphère
             hasAtmosphere = true;
             atmosphereColor = Color.valueOf("8c3149");
@@ -33,7 +34,6 @@ public class JBPlanets {
             atmosphereRadOut = 0.4f;
             // Orbite
             orbitRadius = 2f;
-            orbitTime = Mathf.pow((2.0f + 14.0f + 0.66f), 1.5f) * 80;
             //Mesh
             meshLoader = () -> new HexMesh(this, 5);
 
