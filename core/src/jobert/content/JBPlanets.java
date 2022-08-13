@@ -1,20 +1,13 @@
 package jobert.content;
 
-import arc.func.*;
-import arc.graphics.*;
+import mindustry.type.Planet;
+import mindustry.content.Planets;
+import mindustry.graphics.g3d.*;
+import arc.graphics.Color;
 import arc.math.*;
 import arc.math.geom.*;
-import arc.struct.*;
-import arc.util.*;
-import mindustry.game.*;
-import mindustry.graphics.*;
-import mindustry.graphics.g3d.*;
-import mindustry.graphics.g3d.PlanetGrid.*;
 import mindustry.maps.planet.*;
-import mindustry.type.*;
 import mindustry.world.*;
-import mindustry.world.meta.*;
-import mindustry.content.*;
 import jobert.*;
 
 public class JBPlanets {
