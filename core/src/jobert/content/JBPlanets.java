@@ -12,11 +12,11 @@ import jobert.*;
 public class JBPlanets {
     
     public static Planet
-    testing;
+    moon;
     
     public static void load() {
         
-        moon = new Planet("moon", JBPlanets.testing, 1f, 1) {{
+        moon = new Planet("moon", Planets.Erekir, 1f, 1) {{
             localizedName = "Test moon";
             description = "A testing moon.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -38,6 +38,8 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
         
+        /*testing;
+      
         testing = new Planet("testing", Planets.sun, 1f, 3) {{
             localizedName = "Testing Planet";
             description = "A testing planet.";
@@ -58,6 +60,6 @@ public class JBPlanets {
             orbitRadius = 26.5f;
 
             alwaysUnlocked = true;
-        }};
+        }};*/
     }
 }
