@@ -17,25 +17,8 @@ public class JBPlanets {
     
     public static void load() {
         
-        moon = new Planet("moon", testing, 1f, 1) {{
-            localizedName = "Test moon";
-            description = "A testing moon.";
-            landCloudColor = Color.valueOf("8c3149");
-            generator = new ErekirPlanetGenerator();
-            // Atmosphère
-            hasAtmosphere = false;
-            // Mesh
-            meshLoader = () -> new HexMesh(this, 7);
-            // Orbite 
-            orbitRadius = 8.0f;
 
-            alwaysUnlocked = true;
-            
-            //launchCandidates = Seq<testing>;
-        }};
-        
-
-        testing = new Planet("Arkans", Planets.sun, 1f, 3) {{
+        testing = new Planet("arkans", Planets.sun, 1f, 3) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -55,6 +38,23 @@ public class JBPlanets {
             orbitRadius = 26.5f;
 
             alwaysUnlocked = true;
+        }};
+
+        moon = new Planet("moon", arkans, 1f, 1) {{
+            localizedName = "Test moon";
+            description = "A testing moon.";
+            landCloudColor = Color.valueOf("8c3149");
+            generator = new ErekirPlanetGenerator();
+            // Atmosphère
+            hasAtmosphere = false;
+            // Mesh
+            meshLoader = () -> new HexMesh(this, 7);
+            // Orbite 
+            orbitRadius = 8.0f;
+
+            alwaysUnlocked = true;
+            
+            //launchCandidates = Seq<testing>;
         }};
     }
 }
