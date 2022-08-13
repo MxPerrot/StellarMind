@@ -20,7 +20,7 @@ public class JBPlanets {
         moon = new Planet("moon", testing, 1f, 1) {{
             localizedName = "Test moon";
             description = "A testing moon.";
-            landCloudColor = atmosphereColor.cpy().a(0.5f);
+            landCloudColor = Color.valueOf("8c3149");
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = false;
