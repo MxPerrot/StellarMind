@@ -20,7 +20,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        elios = new Planet("elios", Planets.sun, 3.2f, 3.6) {{
+        elios = new Planet("elios", Planets.sun, 3.4f, 4) {{
             localizedName= "Elios";
             description = "A star.";
             hasAtmosphere= true;
