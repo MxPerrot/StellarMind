@@ -1,7 +1,7 @@
 package jobert.content.Blocks;
 
 import mindustry.content.Items;
-import mindustry.ctype.ContentList;
+import mindustry.ctype.ContentType;
 import mindustry.type.Category;
 import mindustry.type.ItemStack;
 import mindustry.world.Block;
@@ -9,7 +9,7 @@ import mindustry.world.meta.BuildVisibility;
 
 import static mindustry.type.ItemStack.with;
 
-public class JBBlocks implements ContentList {
+public class JBBlocks implements ContentType {
     public static Block
 
         //Environment
@@ -27,13 +27,13 @@ public class JBBlocks implements ContentList {
         
         //Walls
         
-        private ContentList[] blocksContent = {
+        private ContentType[] blocksContent = {
                 new JBProduction(),
         };
 
     public void load() {
-        for (ContentList contentList : blocksContent) {
-            contentList.load();
+        for (ContentType contentType : blocksContent) {
+            contentType.load();
         }
     }
 }
