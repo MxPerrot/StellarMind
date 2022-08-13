@@ -20,7 +20,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        elios = new Planet("elios", Planets.sun, 3.2f, 4) {{
+        elios = new Planet("elios", Planets.sun, 3.2f, 3.6) {{
             localizedName= "Elios";
             description = "A star.";
             hasAtmosphere= true;
@@ -34,12 +34,12 @@ public class JBPlanets {
                 Color.valueOf("24b7ed")
             );
             lightColor = Color.valueOf("0983b0");
-            orbitRadius = 143.5f;
+            orbitRadius = 163.5f;
             drawOrbit = false;
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 0.9f, 3) {{
+        arkans = new Planet("arkans", elios, 1.5f, 2) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -56,11 +56,11 @@ public class JBPlanets {
                       new HexSkyMesh(this, 1, 0.6f, 0.16f, 5, Color.white.cpy().lerp(Color.valueOf("363f9a"), 0.55f).a(0.75f), 2, 0.45f, 1f, 0.41f)
                               );
             // Orbite 
-            orbitRadius = 26.5f;
+            orbitRadius = 32.5f;
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 1f, 1) {{
+        stella = new Planet("stella", arkans, 0.9f, 1) {{
             localizedName = "Stella";
             description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
@@ -69,9 +69,9 @@ public class JBPlanets {
             atmosphereRadIn = 0.01f;
             atmosphereRadOut = 0.4f;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 4);
+            meshLoader = () -> new HexMesh(this, 5);
             // Orbite 
-            orbitRadius = 8.0f;
+            orbitRadius = 6.5f;
             alwaysUnlocked = true;
             
             //launchCandidates = Seq<testing>;
