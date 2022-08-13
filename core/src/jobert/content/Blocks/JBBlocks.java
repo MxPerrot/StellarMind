@@ -7,9 +7,11 @@ import mindustry.type.ItemStack;
 import mindustry.world.Block;
 import mindustry.world.meta.BuildVisibility;
 
-import static mindustry.type.ItemStack.with;
+import static mindustry.Vars.*;
+import static mindustry.type.ItemStack.*;
+import static jobert.content.Blocks.*;
 
-public class JBBlocks implements ContentType {
+public class JBBlocks {
     public static Block
 
         //Environment
@@ -31,9 +33,9 @@ public class JBBlocks implements ContentType {
                 new JBProduction(),
         };
 
-    public void load() {
-        for (ContentType contentType : blocksContent) {
-            contentType.load();
+    public static void load() {
+        JBProduction.loqd();
+
         }
     }
 }
