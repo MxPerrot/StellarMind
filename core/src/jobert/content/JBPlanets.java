@@ -18,7 +18,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        elios = new Planet("elios", Planets.sun, 1.8f, 4) {{
+        elios = new Planet("elios", Planets.sun, 2.4f, 4) {{
             localizedName= "Elios";
             description = "A star.";
             hasAtmosphere= true;
@@ -37,7 +37,7 @@ public class JBPlanets {
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 1f, 3) {{
+        arkans = new Planet("arkans", elios, 1f, 2) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -58,7 +58,7 @@ public class JBPlanets {
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 1f, 0.5) {{
+        stella = new Planet("stella", arkans, 0.5f, 1) {{
             localizedName = "Test moon";
             description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
@@ -67,7 +67,7 @@ public class JBPlanets {
             atmosphereRadIn = 0.01f;
             atmosphereRadOut = 0.4f;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 5);
+            meshLoader = () -> new HexMesh(this, 2);
             // Orbite 
             orbitRadius = 8.0f;
             alwaysUnlocked = true;
