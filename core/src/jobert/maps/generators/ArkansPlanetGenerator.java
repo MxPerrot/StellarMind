@@ -31,9 +31,9 @@ import mindustry.world.Tiles;
 
 import static mindustry.Vars.*;
 
-public class ArkansPlanetGenerator extends PlanetGenerator {
+//public class ArkansPlanetGenerator extends PlanetGenerator {
 
-    public ArkansPlanetGenerator() {
+    //public ArkansPlanetGenerator() {
 
-    }
-}
+    //}
+//}
