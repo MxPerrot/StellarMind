@@ -18,7 +18,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        elios = new Planet("elios", Planets.sun, 2.4f, 3) {{
+        elios = new Planet("elios", Planets.sun, 1.8f, 4) {{
             localizedName= "Elios";
             description = "A star.";
             hasAtmosphere= true;
@@ -31,8 +31,9 @@ public class JBPlanets {
                 Color.valueOf("0ba6de"),
                 Color.valueOf("24b7ed")
             );
-            lightColor = Color.valueOf("11f1f5");
-            orbitRadius = 121.5f;
+            lightColor = Color.valueOf("0983b0");
+            orbitRadius = 143.5f;
+            drawOrbit = false
             bloom = true;
         }};
 
@@ -54,7 +55,6 @@ public class JBPlanets {
                               );
             // Orbite 
             orbitRadius = 26.5f;
-
             alwaysUnlocked = true;
         }};
 
