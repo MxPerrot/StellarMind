@@ -12,13 +12,31 @@ import jobert.*;
 public class JBPlanets {
     
     public static Planet
+    elios
     arkans,
     moon;
     
     public static void load() {
         
+        elios = new Planet("elios", Planets.sun, 2.4f, 3) {{
+            localizedName= "Elios"
+            description = "A star."
+            hasAtmosphere= true
+            meshLoader = () -> new SunMesh(
+                this, 4, 5, 0.3f, 1.0f, 1.2f, 1, 1.3f,
+                Color.valueOf("0fd0d4"),
+                Color.valueOf("11f1f5"),
+                Color.valueOf("09adb0"),
+                Color.valueOf("0983b0"),
+                Color.valueOf("0ba6de"),
+                Color.valueOf("24b7ed")
+            );
+            lightColor = Color.valueOf("11f1f5");
+            orbitRadius = 51.5f;
+            bloom = true;
+        }};
 
-        arkans = new Planet("arkans", Planets.sun, 1f, 3) {{
+        arkans = new Planet("arkans", elios, 1f, 3) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
