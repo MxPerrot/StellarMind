@@ -62,12 +62,13 @@ public class JBBlocks {
 
         // Production
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
-            requirements(Category.crafting, with {
-                Items.lead, 120,
-                Items.titanium, 130,
-                Items.silicon, 85,
-                Items.metaglass, 45
-            });
+            requirements = (
+                Item.lead, 120,
+                Item.titanium, 130,
+                Item.silicon, 85,
+                Item.metaglass, 45
+            );
+            category = Category.crafting;
             size = 3;
             health = 340;
             destructible = true;
@@ -85,7 +86,7 @@ public class JBBlocks {
             consumesItem(ItemStack.with(Items.titanium, 3));
             outputLiquid = new LiquidStack(Liquids.cryofluid, 22f / 60f);
 
-            buildVisibility = sandboxOnly
+            buildVisibility = sandboxOnly;
         }};
     }
 }
