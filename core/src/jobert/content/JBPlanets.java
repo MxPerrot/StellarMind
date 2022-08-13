@@ -20,7 +20,7 @@ public class JBPlanets {
     
     public static void load() {
         
-        elios = new Planet("elios", Planets.sun, 2.4f, 4) {{
+        elios = new Planet("elios", Planets.sun, 3.2f, 4) {{
             localizedName= "Elios";
             description = "A star.";
             hasAtmosphere= true;
@@ -39,7 +39,7 @@ public class JBPlanets {
             bloom = true;
         }};
 
-        arkans = new Planet("arkans", elios, 1f, 2) {{
+        arkans = new Planet("arkans", elios, 0.9f, 3) {{
             localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
@@ -69,7 +69,7 @@ public class JBPlanets {
             atmosphereRadIn = 0.01f;
             atmosphereRadOut = 0.4f;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 3);
+            meshLoader = () -> new HexMesh(this, 4);
             // Orbite 
             orbitRadius = 8.0f;
             alwaysUnlocked = true;
