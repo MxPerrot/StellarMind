@@ -12,36 +12,31 @@ import jobert.*;
 public class JBPlanets {
     
     public static Planet
+    testing,
     moon;
     
     public static void load() {
         
-        moon = new Planet("moon", Planets.erekir, 1f, 1) {{
+        moon = new Planet("moon", JBPlanets.testing, 1f, 1) {{
             localizedName = "Test moon";
             description = "A testing moon.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
             generator = new ErekirPlanetGenerator();
             // Atmosphère
-            hasAtmosphere = true;
-            atmosphereColor = Color.valueOf("19f90c");
-            atmosphereRadIn = 0.01f;
-            atmosphereRadOut = 0.4f;
+            hasAtmosphere = false;
             // Mesh
-            meshLoader = () -> new HexMesh(this, 6);
-            cloudMeshLoader = () -> new MultiMesh(
-                      new HexSkyMesh(this, 11, 0.15f, 0.13f, 5, new Color().set(Color.valueOf("19f90c")).mul(0.9f).a(0.75f), 2, 0.45f, 0.9f, 0.38f),
-                      new HexSkyMesh(this, 1, 0.6f, 0.16f, 5, Color.white.cpy().lerp(Color.valueOf("19f90c"), 0.55f).a(0.75f), 2, 0.45f, 1f, 0.41f)
-                              );
+            meshLoader = () -> new HexMesh(this, 2);
             // Orbite 
             orbitRadius = 8.0f;
 
             alwaysUnlocked = true;
+            
+            launchCandidates = testing,
         }};
         
-        /*testing;
-      
-        testing = new Planet("testing", Planets.sun, 1f, 3) {{
-            localizedName = "Testing Planet";
+
+        testing = new Planet("Arkans", Planets.sun, 1f, 3) {{
+            localizedName = "Arkans";
             description = "A testing planet.";
             landCloudColor = atmosphereColor.cpy().a(0.5f);
             generator = new ErekirPlanetGenerator();
@@ -60,6 +55,8 @@ public class JBPlanets {
             orbitRadius = 26.5f;
 
             alwaysUnlocked = true;
-        }};*/
+            
+            launchCandidates = moon;
+        }};
     }
 }
