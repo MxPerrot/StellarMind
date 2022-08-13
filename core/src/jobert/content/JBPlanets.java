@@ -31,7 +31,7 @@ public class JBPlanets {
 
             alwaysUnlocked = true;
             
-            launchCandidates = testing;
+            launchCandidates = Seq<testing>;
         }};
         
 
@@ -56,7 +56,7 @@ public class JBPlanets {
 
             alwaysUnlocked = true;
             
-            launchCandidates = moon;
+            launchCandidates = Seq<moon>;
         }};
     }
 }
