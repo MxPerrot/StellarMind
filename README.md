@@ -1,19 +1,29 @@
-A Java mod for Mindustry that is still very new and in development.
+A Java mod for Mindustry, *created by 2 french man*, that is still very new and in heavy development.
 
 - - -
 
+## INFO RAPIDE
+
+#### Da J
+> Problème avec les items, impossible de fix pour une quelconque raison.
+
+> Il faut également un nom pour le mod plus "cool".
+
+#### Big H
+> ***
+
+
+- - -
 
 ## INFOS
 [![Mod Build](https://github.com/HubertBDLB/Jobert_Factories/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/HubertBDLB/Jobert_Factories/actions/workflows/build.yml)
 > - J = Jojo - H = Hubert
 
 
-- Pour Importer en jeu : Mod > Importer un mod > Importer un fichier (.jar) > Relancer
-
 - Liens utiles :
-  - [GitHub](https://github.com/Anuken/Mindustry) Mindustry
-  - [New Wiki](https://mindustrygame.github.io/wiki/) Mindustry
-  - [Old Wiki](https://mindustrygame.github.io/docs/index.html) Mindustry
+  - [GitHub](https://github.com/Anuken/Mindustry) Mindustry.
+  - [Wiki](https://mindustrygame.github.io/wiki/) Mindustry.
+  - [Java Wiki](https://mindustrygame.github.io/docs/index.html) *(tout est trouvable dans le code Mindustry)*
 
 - Toutes les dates sont conformes à la norme ISO-8601 (YYYY-MM-DD).
 
@@ -22,25 +32,18 @@ A Java mod for Mindustry that is still very new and in development.
 - Tier 3 : Mega ... factory, productivité * 4
 
 
-## CHAT RAPIDE
-
-#### Da J
-> Contenu dans le mod : Planète - Le mod ne charge aucun contenu, je sais pas comment faire :c
-
-#### Big H
-> ***
-
-
 ## TÂCHES 
 
 
 | Etat| Dev | Description |
 |:-|:-:|:-:|
-| EN COURS | Jojo | Faire les dossiers. |
-| EN COURS| J & H | Transition Java. |
-| PAUSE | Hubert | Metaglass Usine Tier 2. |
-| PAUSE | Jojo | Usine Cryofluid Tier 3. |
-| PAUSE | Jojo | Texture pour les usine. |
+| EN COURS | `J & H` | Faire les dossiers. (Peut se baser de Mindsutry/autre mod java) |
+| EN COURS | `J & H` | Trouver un nom + changer nom dans fichier |
+| EN COURS | `J & H` | Trouver idées pour planètes (items/minerais/blocks/units/secteurs/etc...)
+| TERMINÉ | `J & H` | Transition Java. |
+| PAUSE | Hubert | ~~Metaglass Usine Tier 2.~~ |
+| PAUSE | Jojo | ~~Usine Cryofluid Tier 3.~~ |
+| PAUSE | Jojo | ~~Texture pour les usine.~~ |
 
 
 ## À FAIRE
