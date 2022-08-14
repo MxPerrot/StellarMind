@@ -95,8 +95,6 @@ public class JBBlocks {
             size = 3;
             health = 340;
 
-            drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidRegion(Liquids.water), new DrawLiquidRegion(Liquids.cryofluid), new DrawDefault());
-
             hasPower = hasItems = hasLiquids = true;
             itemCapacity = 20;
             liquidCapacity = 36f;
@@ -106,6 +104,8 @@ public class JBBlocks {
             consumeLiquid(Liquids.water, 0.3f);
             consumeItem(Items.titanium, 3);
             outputLiquid = new LiquidStack(Liquids.cryofluid, 0.366666667f);
+
+            drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
         }};
     }
 }
