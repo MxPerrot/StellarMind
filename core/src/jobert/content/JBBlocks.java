@@ -39,6 +39,8 @@ import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
 import static mindustry.Vars.*;
+//import static mindustry.world.consumers.ConsumeItems.*;
+//import static mindustry.world.consumers.ConsumeLiquids.*
 import static mindustry.type.ItemStack.*;
 import static mindustry.type.LiquidStack.*;
 import static mindustry.world.meta.BuildVisibility.*;
@@ -86,8 +88,8 @@ public class JBBlocks {
 
             craftTime = 60;
             consumePower(2.33333333f);
-            consumesLiquids(new LiquidStack.with(Liquids.water, 18f / 20f));
-            consumesItems(ItemStack.with(Items.titanium));
+            consumeLiquids(new LiquidStack.with(Liquids.water, 18f / 20f));
+            consumeItems(ItemStack.with(Items.titanium));
             outputLiquid = new LiquidStack(Liquids.cryofluid, 0.366666667f);
             buildVisibility = sandboxOnly;
         }};
