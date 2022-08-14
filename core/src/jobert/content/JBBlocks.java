@@ -95,6 +95,8 @@ public class JBBlocks {
             size = 3;
             health = 340;
 
+            drawer = new DrawMulti(new DrawDefault(), new DrawRegion ("-bottom"), new DrawLiquidRegion(Liquids.water), new DrawLiquidRegion(Liquids.cryofluid));
+
             hasPower = hasItems = hasLiquids = true;
             itemCapacity = 20;
             liquidCapacity = 36f;
