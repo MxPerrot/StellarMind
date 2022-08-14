@@ -87,7 +87,7 @@ public class JBBlocks {
             craftTime = 60;
             consumePower(2.33333333f);
             consumesLiquids(new LiquidStack.with(Liquids.water, 18f / 20f));
-            consumesItems(ItemStack.with[3] Items.titanium);
+            consumesItems(ItemStack.with(Items.titanium);
             outputLiquid = new LiquidStack(Liquids.cryofluid, 0.366666667f);
             buildVisibility = sandboxOnly;
         }};
