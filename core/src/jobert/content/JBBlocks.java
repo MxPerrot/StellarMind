@@ -38,7 +38,8 @@ import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
 import static mindustry.Vars.*;
-import static mindustry.type.*;
+import static mindustry.type.ItemStack.*;
+import static mindustry.type.LiquidStack.*;
 
 public class JBBlocks {
     public static Block
@@ -83,9 +84,9 @@ public class JBBlocks {
 
             craftTime = 60;
             consumePower(2.33333333f);
-            consumesLiquid(Liquids.water, 18f / 60f);
+            consumesLiquid(Liquids.water, 0.3f);
             consumesItem(ItemStack.with(Items.titanium, 3));
-            outputLiquid = new LiquidStack(Liquids.cryofluid, 22f / 60f);
+            outputLiquid = new LiquidStack(Liquids.cryofluid, 0.366666667f);
         }};
     }
 }
