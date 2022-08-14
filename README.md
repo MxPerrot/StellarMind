@@ -5,7 +5,7 @@ A Java mod for Mindustry, *created by 2 french man*, that is still very new and 
 ## INFO RAPIDE
 
 #### Da J
-> Problème avec les items, impossible de fix pour une quelconque raison.
+> Consumes Item (Item Stack = quantité défini) ne marche pas et cause des problème avec d'autres choses 
 
 > Il faut également un nom pour le mod plus "cool".
 
