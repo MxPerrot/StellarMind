@@ -38,7 +38,7 @@ import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 
 import static mindustry.Vars.*;
-import static mindustry.type.ItemStack.*;
+import static mindustry.type.*;
 
 public class JBBlocks {
     public static Block
@@ -78,7 +78,8 @@ public class JBBlocks {
             hasPower = true;
             hasItems = true;
             hasLiquids = true;
-            itemCapacity = 20f;
+            itemCapacity = 20;
+            liquidCapacity= 36;
 
             craftTime = 60;
             consumePower(2.33333333f);
