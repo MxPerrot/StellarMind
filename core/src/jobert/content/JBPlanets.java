@@ -21,8 +21,6 @@ public class JBPlanets {
     public static void load() {
         
         elios = new Planet("elios", Planets.sun, 3.8f, 4) {{
-            localizedName= "Elios";
-            description = "A star.";
             hasAtmosphere= true;
             meshLoader = () -> new SunMesh(
                 this, 4, 5, 0.3f, 1.0f, 1.2f, 1, 1.3f,
@@ -40,9 +38,6 @@ public class JBPlanets {
         }};
 
         arkans = new Planet("arkans", elios, 1f, 2) {{
-            localizedName = "Arkans";
-            description = "A testing planet.";
-            landCloudColor = atmosphereColor.cpy().a(0.5f);
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
@@ -50,6 +45,7 @@ public class JBPlanets {
             atmosphereRadIn = 0.02f;
             atmosphereRadOut = 0.3f;
             // Mesh
+            landCloudColor = atmosphereColor.cpy().a(0.5f);
             meshLoader = () -> new HexMesh(this, 5);
             cloudMeshLoader = () -> new MultiMesh(
                       new HexSkyMesh(this, 11, 0.15f, 0.13f, 5, new Color().set(Color.valueOf("363f9a")).mul(0.9f).a(0.75f), 2, 0.45f, 0.9f, 0.38f),
@@ -61,8 +57,6 @@ public class JBPlanets {
         }};
 
         stella = new Planet("stella", arkans, 0.6f, 1) {{
-            localizedName = "Stella (Bug)";
-            description = "A testing moon.";
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
