@@ -1,4 +1,4 @@
-A Java mod for Mindustry, *created by 2 french man*, that is still very new and in heavy development.
+A Java mod for Mindustry, *created by 2 french men*, that is still very new and in heavy development.
 
 - - -
 
