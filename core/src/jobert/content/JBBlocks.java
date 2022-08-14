@@ -1,4 +1,4 @@
-package jobert.content.Blocks;
+package jobert.content;
 
 import arc.graphics.*;
 import arc.math.*;
