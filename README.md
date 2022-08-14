@@ -37,10 +37,10 @@ A Java mod for Mindustry, *created by 2 french man*, that is still very new and 
 
 | Etat| Dev | Description |
 |:-|:-:|:-:|
-| EN COURS | `J & H` | Faire les dossiers. (Peut se baser de Mindsutry/autre mod java) |
-| EN COURS | `J & H` | Trouver un nom + changer nom dans fichier |
-| EN COURS | `J & H` | Trouver idées pour planètes (items/minerais/blocks/units/secteurs/etc...)
-| TERMINÉ | `J & H` | Transition Java. |
+| EN COURS | J & H | Faire les dossiers. (Peut se baser de Mindsutry/autre mod java) |
+| EN COURS | J & H | Trouver un nom + changer nom dans fichier |
+| EN COURS | J & H | Trouver idées pour planètes (items/minerais/blocks/units/secteurs/etc...)
+| TERMINÉ | J & H | Transition Java. |
 | PAUSE | Hubert | ~~Metaglass Usine Tier 2.~~ |
 | PAUSE | Jojo | ~~Usine Cryofluid Tier 3.~~ |
 | PAUSE | Jojo | ~~Texture pour les usine.~~ |
