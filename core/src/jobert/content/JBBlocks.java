@@ -100,10 +100,10 @@ public class JBBlocks {
             liquidCapacity = 38f;
             craftTime = 15;
 
-            consumePower(1.15f);
+            consumePower(1.5f);
             consumeItem(Items.titanium, 1);
-            consumeLiquid(Liquids.water, 0.2f);
-            outputLiquid = new LiquidStack(Liquids.cryofluid, 0.2f);
+            consumeLiquid(Liquids.water, 1f);
+            outputLiquid = new LiquidStack(Liquids.cryofluid, 1f);
 
             drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
         }};
