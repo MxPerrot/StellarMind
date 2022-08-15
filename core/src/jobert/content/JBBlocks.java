@@ -103,8 +103,8 @@ public class JBBlocks {
 
             consumePower(2.33333333f);
             consumeItem(Items.titanium, 3);
-            consumeLiquid(Liquids.water, 18f / 60f);
-            outputLiquid = new LiquidStack(Liquids.cryofluid, 28f / 60f);
+            consumeLiquid(Liquids.water, 0.3f);
+            outputLiquid = new LiquidStack(Liquids.cryofluid, 0.466666667f);
 
             drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
         }};
