@@ -87,10 +87,10 @@ public class JBBlocks {
         // Production
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
             requirements(Category.crafting, BuildVisibility.sandboxOnly, with(
-                Items.lead, 120,
+                Items.lead, 140,
                 Items.titanium, 130,
-                Items.silicon, 85,
-                Items.metaglass, 45
+                Items.silicon, 90,
+                Items.metaglass, 30
             ));
             size = 3;
             health = 340;
@@ -98,12 +98,12 @@ public class JBBlocks {
             hasPower = hasItems = hasLiquids = true;
             itemCapacity = 20;
             liquidCapacity = 38f;
-            craftTime = 60;
+            craftTime = 15;
 
-            consumePower(2.33333333f);
-            consumeItem(Items.titanium, 3);
-            consumeLiquid(Liquids.water, 0.3f);
-            outputLiquid = new LiquidStack(Liquids.cryofluid, 0.466666667f);
+            consumePower(1.15f);
+            consumeItem(Items.titanium, 1);
+            consumeLiquid(Liquids.water, 0.2f);
+            outputLiquid = new LiquidStack(Liquids.cryofluid, 0.2f);
 
             drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
         }};
