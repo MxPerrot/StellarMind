@@ -62,6 +62,7 @@ import mindustry.world.meta.BuildVisibility;
 import static arc.graphics.g2d.Lines.lineAngle;
 import static mindustry.Vars.tilesize;
 import static mindustry.type.ItemStack.with;
+import static mindustry.type.LiquidStack.with;
 
 public class JBBlocks {
     public static Block
@@ -97,13 +98,13 @@ public class JBBlocks {
 
             hasPower = hasItems = hasLiquids = true;
             itemCapacity = 20;
-            liquidCapacity = 36f;
+            liquidCapacity = 38f;
             craftTime = 60;
 
             consumePower(2.33333333f);
-            consumeLiquid(Liquids.water, 0.3f);
             consumeItem(Items.titanium, 3);
-            outputLiquid = new LiquidStack(Liquids.cryofluid, 0.366666667f);
+            consumeLiquid(Liquids.water, 18f / 60f);
+            outputLiquid = new LiquidStack(Liquids.cryofluid, 28f / 60f);
 
             drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
         }};
