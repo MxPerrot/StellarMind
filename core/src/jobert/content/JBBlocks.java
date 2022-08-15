@@ -62,7 +62,6 @@ import mindustry.world.meta.BuildVisibility;
 import static arc.graphics.g2d.Lines.lineAngle;
 import static mindustry.Vars.tilesize;
 import static mindustry.type.ItemStack.with;
-import static mindustry.type.LiquidStack.with;
 
 public class JBBlocks {
     public static Block
