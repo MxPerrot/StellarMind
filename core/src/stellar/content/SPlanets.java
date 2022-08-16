@@ -9,7 +9,6 @@ import mindustry.maps.generators.*;
 import mindustry.world.*;
 import stellar.*;
 //import stellar.maps.generators.ArkansPlanetGenerator;
-//import stellar.maps.generators.StellaPlanetGenerator;
 
 public class SPlanets {
     
@@ -21,20 +20,23 @@ public class SPlanets {
     public static void load() {
         
         elios = new Planet("elios", Planets.sun, 3.8f, 4) {{
-            hasAtmosphere= true;
-            meshLoader = () -> new SunMesh(
-                this, 4, 5, 0.3f, 1.0f, 1.2f, 1, 1.3f,
-                Color.valueOf("0fd0d4"),
-                Color.valueOf("11f1f5"),
-                Color.valueOf("09adb0"),
-                Color.valueOf("0983b0"),
-                Color.valueOf("0ba6de"),
-                Color.valueOf("24b7ed")
-            );
-            lightColor = Color.valueOf("0983b0");
             orbitRadius = 250f;
             drawOrbit = false;
+
             bloom = true;
+            accessible= false;
+            meshLoader = () -> new SunMesh(
+                this, 4,
+                5, 0.3, 1.7, 1.2, 1,
+                1.1f,
+                Color.valueOf("ed0c0c"),
+                Color.valueOf("3c72c2c"),
+                Color.valueOf("c72020"),
+                Color.valueOf("c72020"),
+                Color.valueOf("9c1e1e"),
+                Color.valueOf("850707")
+            );
+            lightColor = Color.valueOf("c72020");
         }};
 
         arkans = new Planet("arkans", elios, 1f, 2) {{
@@ -56,7 +58,7 @@ public class SPlanets {
             alwaysUnlocked = true;
         }};
 
-        stella = new Planet("stella", arkans, 0.6f, 1) {{
+        stella = new Planet("stella", arkans, 0.5f, 1) {{
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
