@@ -63,7 +63,7 @@ import static arc.graphics.g2d.Lines.lineAngle;
 import static mindustry.Vars.tilesize;
 import static mindustry.type.ItemStack.with;
 
-public class StellarBlocks {
+public class SBlocks {
     public static Block
 
         //Environment
