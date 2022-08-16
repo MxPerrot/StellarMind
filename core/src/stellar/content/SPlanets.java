@@ -1,4 +1,4 @@
-package jobert.content;
+package stellar.content;
 
 import mindustry.type.Planet;
 import mindustry.content.Planets;
@@ -7,11 +7,11 @@ import arc.graphics.Color;
 import mindustry.maps.planet.*;
 import mindustry.maps.generators.*;
 import mindustry.world.*;
-import jobert.*;
-//import jobert.maps.generators.ArkansPlanetGenerator;
-//import jobert.maps.generators.StellaPlanetGenerator;
+import stellar.*;
+//import stellar.maps.generators.ArkansPlanetGenerator;
+//import stellar.maps.generators.StellaPlanetGenerator;
 
-public class JBPlanets {
+public class StellarPlanets {
     
     public static Planet
     elios,
