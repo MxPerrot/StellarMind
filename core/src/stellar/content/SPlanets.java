@@ -24,19 +24,20 @@ public class SPlanets {
             drawOrbit = false;
 
             bloom = true;
+            hasAtmosphere = true;
             accessible= false;
             meshLoader = () -> new SunMesh(
                 this, 4,
                 5, 0.3, 1.7, 1.2, 1,
                 1.1f,
+                Color.valueOf("f23838"),
                 Color.valueOf("ed0c0c"),
-                Color.valueOf("3c72c2c"),
-                Color.valueOf("c72020"),
-                Color.valueOf("c72020"),
-                Color.valueOf("9c1e1e"),
-                Color.valueOf("850707")
+                Color.valueOf("6e0d0d"),
+                Color.valueOf("ed0c0c"),
+                Color.valueOf("a60a0a"),
+                Color.valueOf("9c1e1e")
             );
-            lightColor = Color.valueOf("c72020");
+            lightColor = Color.valueOf("f23838");
         }};
 
         arkans = new Planet("arkans", elios, 1f, 2) {{
