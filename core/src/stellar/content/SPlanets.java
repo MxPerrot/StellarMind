@@ -60,15 +60,12 @@ public class SPlanets {
             generator = new ErekirPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
-            atmosphereRadIn = 0.01f;
-            atmosphereRadOut = 0.2f;
             // Mesh
             meshLoader = () -> new HexMesh(this, 4);
             // Orbite 
             orbitRadius = 6.5f;
-            alwaysUnlocked = true;
+            accessible = false;
             
-            //launchCandidates = Seq<testing>;
         }};
     }
 }
