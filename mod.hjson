@@ -7,4 +7,4 @@ version: 0.1 beta
 minGameVersion: 136
 
 java: true
-main: "jobert.JoBertMod"
+main: "stellar.StellarMind"
