@@ -1,4 +1,4 @@
-package jobert.content;
+package stellar.content;
 
 import arc.Core;
 import arc.graphics.Color;
@@ -63,7 +63,7 @@ import static arc.graphics.g2d.Lines.lineAngle;
 import static mindustry.Vars.tilesize;
 import static mindustry.type.ItemStack.with;
 
-public class JBBlocks {
+public class StellarBlocks {
     public static Block
 
         //Environment
