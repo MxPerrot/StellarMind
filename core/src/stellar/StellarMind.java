@@ -3,9 +3,9 @@ package stellar;
 import mindustry.mod.*;
 import stellar.content.*;
 
-public class StellarMod extends Mod{
+public class StellarMind extends Mod{
 
-    public StellarMod (){
+    public StellarMind (){
 
     }
     @Override
