@@ -30,14 +30,15 @@ public class SPlanets {
                 this, 4,
                 5, 0.3, 1.7, 1.2, 1,
                 1.1f,
-                Color.valueOf("f23838"),
-                Color.valueOf("ed0c0c"),
-                Color.valueOf("6e0d0d"),
-                Color.valueOf("ed0c0c"),
-                Color.valueOf("a60a0a"),
-                Color.valueOf("9c1e1e")
+                    Color.valueOf("f70a0a"),
+                    Color.valueOf("f21f1f"),
+                    Color.valueOf("f53838"),
+                    Color.valueOf("fa5555"),
+                    Color.valueOf("f26b6b"),
+                    Color.valueOf("f79979")
             );
-            lightColor = Color.valueOf("f23838");
+            lightColor = Color.valueOf("cc1f1f");
+            atmosphereColor = Color.valueOf("cc1f1f");
         }};
 
         arkans = new Planet("arkans", elios, 1f, 2) {{
@@ -57,6 +58,10 @@ public class SPlanets {
             // Orbite 
             orbitRadius = 21f;
             alwaysUnlocked = true;
+            // Règles
+            ruleSetter = r -> {
+	         r.fog = true;
+	    };
         }};
 
         stella = new Planet("stella", arkans, 0.5f, 1) {{
