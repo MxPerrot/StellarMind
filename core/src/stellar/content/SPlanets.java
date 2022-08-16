@@ -11,7 +11,7 @@ import stellar.*;
 //import stellar.maps.generators.ArkansPlanetGenerator;
 //import stellar.maps.generators.StellaPlanetGenerator;
 
-public class StellarPlanets {
+public class SPlanets {
     
     public static Planet
     elios,
