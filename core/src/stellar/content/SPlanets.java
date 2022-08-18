@@ -1,7 +1,8 @@
 package stellar.content;
 
-import mindustry.type.Planet;
-import mindustry.content.Planets;
+imporg arc.math.*;
+import mindustry.type.Planet*;
+import mindustry.content.Planets*;
 import mindustry.graphics.g3d.*;
 import arc.graphics.Color;
 import mindustry.maps.planet.*;
@@ -72,6 +73,7 @@ public class SPlanets {
             meshLoader = () -> new HexMesh(this, 4);
             // Orbite 
             orbitRadius = 6.5f;
+            orbitTime = Mathf.pow(orbitRadius, 1.5f) * 10;
             accessible = false;
             
         }};
