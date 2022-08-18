@@ -66,14 +66,15 @@ public class SPlanets {
         }};
 
         stella = new Planet("stella", arkans, 0.5f, 1) {{
-            generator = new ErekirPlanetGenerator();
+            generator = new AsteroidGenerator();
             // Atmosphère
             hasAtmosphere = true;
+            atmosphereColor = colof.ValueOf("32cf7b");
             // Mesh
             meshLoader = () -> new HexMesh(this, 4);
             // Orbite 
             orbitRadius = 6.5f;
-            orbitTime = Mathf.pow(orbitRadius, 1.5f) * 10;
+            orbitTime = Mathf.pow(orbitRadius, 1.5f) * 100;
             accessible = false;
             
         }};
