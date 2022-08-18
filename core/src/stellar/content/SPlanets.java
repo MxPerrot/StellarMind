@@ -1,10 +1,10 @@
 package stellar.content;
 
-imporg arc.math.*;
-import mindustry.type.Planet*;
-import mindustry.content.Planets*;
-import mindustry.graphics.g3d.*;
+import arc.math.*;
 import arc.graphics.Color;
+import mindustry.graphics.g3d.*;
+import mindustry.type.Planet.*;
+import mindustry.content.Planets.*;
 import mindustry.maps.planet.*;
 import mindustry.maps.generators.*;
 import mindustry.world.*;
