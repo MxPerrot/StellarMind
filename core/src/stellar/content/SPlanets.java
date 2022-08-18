@@ -69,7 +69,7 @@ public class SPlanets {
             generator = new AsteroidGenerator();
             // Atmosphère
             hasAtmosphere = true;
-            atmosphereColor = colof.ValueOf("32cf7b");
+            atmosphereColor = color.ValueOf("32cf7b");
             // Mesh
             meshLoader = () -> new HexMesh(this, 4);
             // Orbite 
