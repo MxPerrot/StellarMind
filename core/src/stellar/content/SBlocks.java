@@ -31,29 +31,16 @@ import mindustry.graphics.Pal;
 import mindustry.type.Category;
 import mindustry.type.ItemStack;
 import mindustry.type.LiquidStack;
-import mindustry.world.Block;
-import mindustry.world.blocks.defense.Door;
-import mindustry.world.blocks.defense.ForceProjector;
-import mindustry.world.blocks.defense.MendProjector;
-import mindustry.world.blocks.defense.Wall;
-import mindustry.world.blocks.defense.turrets.ItemTurret;
-import mindustry.world.blocks.defense.turrets.LaserTurret;
-import mindustry.world.blocks.defense.turrets.PointDefenseTurret;
-import mindustry.world.blocks.defense.turrets.PowerTurret;
+import mindustry.world.Block.*;
+import mindustry.world.blocks.defense.*;
+import mindustry.world.blocks.defense.turrets.*;
 import mindustry.world.blocks.distribution.*;
-import mindustry.world.blocks.environment.Floor;
-import mindustry.world.blocks.environment.OreBlock;
-import mindustry.world.blocks.environment.StaticWall;
-import mindustry.world.blocks.liquid.Conduit;
-import mindustry.world.blocks.liquid.LiquidBridge;
-import mindustry.world.blocks.liquid.LiquidRouter;
-import mindustry.world.blocks.power.Battery;
-import mindustry.world.blocks.power.ConsumeGenerator;
-import mindustry.world.blocks.power.PowerNode;
-import mindustry.world.blocks.production.GenericCrafter;
-import mindustry.world.blocks.production.SolidPump;
-import mindustry.world.blocks.sandbox.PowerVoid;
-import mindustry.world.blocks.storage.StorageBlock;
+import mindustry.world.blocks.environment.*;
+import mindustry.world.blocks.liquid.*;
+import mindustry.world.blocks.power.*;
+import mindustry.world.blocks.production.*;
+import mindustry.world.blocks.sandbox.*;
+import mindustry.world.blocks.storage.*;
 import mindustry.world.draw.*;
 import mindustry.world.meta.*;
 import mindustry.world.meta.Attribute;
@@ -65,21 +52,21 @@ import static mindustry.type.ItemStack.with;
 
 public class SBlocks {
     public static Block
-
         //Environment
-        
-        //Transportation
-        
+
+        //Floors
+        //Ores
+
+
+        //Defense
+        //Distribution
+        //Liquid        
         //Power
-        
+        //Transportation
         //Production
         largeCryofluidMixer;
-        
-        //Units
-        
-        //Turrets
-        
-        //Walls
+       
+        //Sandbox
         
 
     public static void load() {
