@@ -9,21 +9,21 @@ This mod will be developed when we have free time, so development is going to be
 
 ## TO DO/PLANNED
 
-[ ] First Planet
-    [ ] Generator
-        [ ] Floors
-        [ ] Walls
-        [ ] Others
-    [ ] Ores
-    [ ] Items
-    [ ] Blocks
-    [ ] Units
+* [ ] First Planet
+    * [ ] Generator
+        * [ ] Floors
+        * [ ] Walls
+        * [ ] Others
+    * [ ] Ores
+    * [ ] Items
+    * [ ] Blocks
+    * [ ] Units
 
 
 ## DONE
 
-[X] Transfer mod from HJSON to Java.
-[X] Fix all typos (thanks to Hubert).
+- [X] Transfer mod from HJSON to Java.
+- [X] Fix all typos (thanks to Hubert).
 
 
 ## BUGS TO FIX
