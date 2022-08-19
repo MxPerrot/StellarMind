@@ -29,7 +29,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     }
 
     @Override
-    public Color = getColor(Vec3 position){
+    public Color getColor(Vec3 position){
         Block block = getBlock(position);
 
         if(block == SBlocks.arkansFloor) block = SBlocks.arkansFloor;
