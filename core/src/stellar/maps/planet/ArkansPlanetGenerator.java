@@ -61,8 +61,5 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         height = Mathf.clamp(height);
 
         Block result = terrain[Mathf.clamp((int)(height * terrain.length), 0, terrain.length - 1)];
-
-        if(ice < 0.3 + Math.abs(Ridged.noise3d(seed + crystalSeed, position.x + 4f, position.y + 8f, position.z + 1f, crystalOct, crystalScl)) * crystalMag){
-            return Blocks.crystallineStone;
-        }
+    }
 }
