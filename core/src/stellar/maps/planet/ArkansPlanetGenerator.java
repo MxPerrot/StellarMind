@@ -43,7 +43,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
 
         if(block == SBlocks.floorArkans) block = SBlocks.floorArkans;
 
-        return Tmp.c1.set(block.mapColor).a (1f - block.albedo);
+        return Tmp.c1.set(block.mapColor).a (1f);
     }
 
     float rawHeight(Vec3 position){
