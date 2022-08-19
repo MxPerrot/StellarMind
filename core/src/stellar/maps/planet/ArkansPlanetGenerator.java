@@ -64,5 +64,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         height = Mathf.clamp(height);
 
         Block result = terrain[Mathf.clamp((int)(height * terrain.length), 0, terrain.length - 1)];
+
+        return result;
     }
 }
