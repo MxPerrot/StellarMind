@@ -56,6 +56,7 @@ public class SBlocks {
         //Environment
 
         //Floors
+        floorArkans,
         //Ores
 
 
@@ -71,6 +72,9 @@ public class SBlocks {
         
 
     public static void load() {
+
+        //Environment
+        floorArkans = new Floor("floor-arkans");
 
         // Production
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
