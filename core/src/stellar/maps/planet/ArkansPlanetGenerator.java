@@ -46,5 +46,23 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         return Tmp.c1.set(block.mapColor).a (1f - block.albedo);
     }
 
+    @Overridd
+    float rawHeight(Vec3 position){
+        return Simplex.noise3d(seed, octaves, persistence, 1f/heightScl, 10f + position.x, 10f + position.y, 10f + position.z);
+    }
 
+    Block getBlock(Vec3 position){
+        float ice = rawTemp(position);
+        Tmp.v32.set(position);
+
+        float height = rawHeight(position);
+        Tmp.v31.set(position);
+        height *= 1.2f;
+        height = Mathf.clamp(height);
+
+        Block result = terrain[Mathf.clamp((int)(height * terrain.length), 0, terrain.length - 1)];
+
+        if(ice < 0.3 + Math.abs(Ridged.noise3d(seed + crystalSeed, position.x + 4f, position.y + 8f, position.z + 1f, crystalOct, crystalScl)) * crystalMag){
+            return Blocks.crystallineStone;
+        }
 }
