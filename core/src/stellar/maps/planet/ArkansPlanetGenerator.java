@@ -4,20 +4,19 @@ import static mindustry.Vars.*;
 
 import arc.graphics.*;
 import arc.math.*;
-import arc.math.Mathf;
 import arc.math.geom.*;
+import arc.struct.*;
 import arc.util.*;
 import arc.util.noise.*;
 import mindustry.ai.*;
 import mindustry.content.*;
 import mindustry.game.*;
+import mindustry.graphics.g3d.*;
 import mindustry.maps.generators.*;
 import mindustry.type.*;
 import mindustry.world.*;
-import mindustry.world.Block;
-import mindustry.world.blocks.*;
 import mindustry.world.blocks.environment.*;
-import mindustry.world.meta.*;
+
 
 import stellar.content.*;
 import stellar.content.SBlocks;
@@ -60,7 +59,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     @Override
     public Color getColor(Vec3 position){
         Block block = getBlock(position);
-        tnoise = 1f;
+        float tnoise = 1f;
 
         if(block == SBlocks.floorArkans) block = SBlocks.floorArkans;
 
