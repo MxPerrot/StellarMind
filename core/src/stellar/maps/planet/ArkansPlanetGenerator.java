@@ -18,6 +18,7 @@ import mindustry.world.Block;
 import mindustry.world.blocks.*;
 import mindustry.world.blocks.environment.*;
 import mindustry.world.meta.*;
+import mindustry.maps.planet.*;
 
 import stellar.content.*;
 import stellar.content.SBlocks;
