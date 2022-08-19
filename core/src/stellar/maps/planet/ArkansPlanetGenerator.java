@@ -51,6 +51,10 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         return Simplex.noise3d(seed, octaves, persistence, 1f/heightScl, 10f + position.x, 10f + position.y, 10f + position.z);
     }
 
+    float rawTemp(Vec3 position){
+        return position.dst(0, 0, 1)*2.2f - Simplex.noise3d(seed, 8, 0.54f, 1.4f, 10f + position.x, 10f + position.y, 10f + position.z) * 2.9f;
+    }
+
     Block getBlock(Vec3 position){
         float ice = rawTemp(position);
         Tmp.v32.set(position);
