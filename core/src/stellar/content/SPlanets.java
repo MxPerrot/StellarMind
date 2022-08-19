@@ -9,7 +9,7 @@ import mindustry.maps.planet.*;
 import mindustry.maps.generators.*;
 import mindustry.world.*;
 import stellar.*;
-//import stellar.maps.generators.ArkansPlanetGenerator;
+import stellar.maps.planet.ArkansPlanetGenerator;
 
 public class SPlanets {
     
@@ -43,7 +43,7 @@ public class SPlanets {
         }};
 
         arkans = new Planet("arkans", elios, 1f, 2) {{
-            generator = new ErekirPlanetGenerator();
+            generator = new ArkansPlanetGenerator();
             // Atmosphère
             hasAtmosphere = true;
             atmosphereColor = Color.valueOf("363f9a");
