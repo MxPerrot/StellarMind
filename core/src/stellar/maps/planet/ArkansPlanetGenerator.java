@@ -22,17 +22,22 @@ import stellar.content.SBlocks;
 
 public class ArkansPlanetGenerator extends PlanetGenerator {
 
-    Block [] terrain = {SBlocks.arkansFloor};
+    Block [] terrain = {SBlocks.floorArkans};
 
     {
         baseSeed = 3;
     }
 
     @Override
+    public float getHeight(Vec3 position){
+        return Mathf.pow(rawHeight(position), heightPow) * heightMult;
+    }
+
+    @Override
     public Color getColor(Vec3 position){
         Block block = getBlock(position);
 
-        if(block == SBlocks.arkansFloor) block = SBlocks.arkansFloor;
+        if(block == SBlocks.floorArkans) block = SBlocks.floorArkans;
 
         return Tmp.c1.set(block.mapColor).a;
     }
