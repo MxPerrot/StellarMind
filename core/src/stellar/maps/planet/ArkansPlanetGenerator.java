@@ -18,15 +18,15 @@ import mindustry.world.Block;
 import mindustry.world.blocks.*;
 import mindustry.world.blocks.environment.*;
 import mindustry.world.meta.*;
-import mindustry.maps.planet.*;
 
 import stellar.content.*;
 import stellar.content.SBlocks;
 
 
 public class ArkansPlanetGenerator extends PlanetGenerator {
+    public float heightScl = 0.9f, octaves = 8, persistence = 0.7f, heightPow = 3f, heightMult = 1.6f;
 
-    Block [] terrain = {SBlocks.floorArkans};
+    Block[] terrain = {SBlocks.floorArkans};
 
     {
         baseSeed = 3;
@@ -43,7 +43,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
 
         if(block == SBlocks.floorArkans) block = SBlocks.floorArkans;
 
-        return Tmp.c1.set(block.mapColor).a;
+        return Tmp.c1.set(block.mapColor).a (1f - block.albedo);
     }
 
 
