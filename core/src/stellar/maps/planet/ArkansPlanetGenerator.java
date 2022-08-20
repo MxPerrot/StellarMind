@@ -107,9 +107,9 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         float rad = scl;
         float temp = Mathf.clamp(Math.abs(position.y * 2f) / (rad));
 
-        Block result = (tnoise > 0.52f) ?(tnoise > 0.58f ? floorArkans : water)
+        Block result = (tnoise > 0.52f) ? floorArkans : water)
 
-        return result
+        return result;
     }
 
 }
