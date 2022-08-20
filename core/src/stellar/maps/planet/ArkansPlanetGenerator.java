@@ -19,12 +19,12 @@ import mindustry.world.blocks.environment.*;
 
 
 import stellar.content.*;
-import stellar.content.SBlocks;
+import stellar.content.SBlocks.*;
 
 
 public class ArkansPlanetGenerator extends PlanetGenerator {
 
-    Block[] terrain = {SBlocks.floorArkans};
+    Block[] terrain = {SBlocks.floorArkans, Blocks.water};
 
 
     public float heightScl = 0.9f, octaves = 8, persistence = 0.7f, heightPow = 3f, heightMult = 1.6f;
@@ -35,20 +35,6 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
 
     float rawTemp(Vec3 position){
         return position.dst(0, 0, 1)*2.2f - Simplex.noise3d(seed, 8, 0.54f, 1.4f, 10f + position.x, 10f + position.y, 10f + position.z) * 2.9f;
-    }
-
-    Block getBlock(Vec3 position){
-        float ice = rawTemp(position);
-        Tmp.v32.set(position);
-
-        float height = rawHeight(position);
-        Tmp.v31.set(position);
-        height *= 1.2f;
-        height = Mathf.clamp(height);
-
-        Block result = terrain[Mathf.clamp((int)(height * terrain.length), 0, terrain.length - 1)];
-
-        return result;
     }
 
     @Override
@@ -112,6 +98,18 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         }
 
         sector.generateEnemyBase = any;
+    }
+
+    Block getBlock(Vec3 position){
+        float height = rawHeight(position);
+        Tmp.v31.set(position);
+        position = Tmp.v33.set(position).scl(scl);
+        float rad = scl;
+        float temp = Mathf.clamp(Math.abs(position.y * 2f) / (rad));
+
+        Block result = (tnoise > 0.52f) ?(tnoise > 0.58f ? floorArkans : water)
+
+        return result
     }
 
 }
