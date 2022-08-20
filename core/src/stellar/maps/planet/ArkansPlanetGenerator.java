@@ -26,6 +26,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
 
     Block[] terrain = {SBlocks.floorArkans, Blocks.water};
 
+    float scl = 2.7f;
 
     public float heightScl = 0.9f, octaves = 8, persistence = 0.7f, heightPow = 3f, heightMult = 1.6f;
 
@@ -107,7 +108,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         float rad = scl;
         float temp = Mathf.clamp(Math.abs(position.y * 2f) / (rad));
 
-        Block result = floorArkans;
+        Block result = SBlocks.floorArkans;
 
         return result;
     }
