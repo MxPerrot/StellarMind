@@ -58,7 +58,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     }
 
     @Override
-    public void getHeight(Vec3 position){
+    public float getHeight(Vec3 position){
         float height = rawHeight(position);
         return Math.max(height, water);
     }
