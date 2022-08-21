@@ -51,16 +51,16 @@ public class StellarBlocks {
         //Arkans
         coreTest = new CoreBlock("core-test") {{
 	    requirements(Category.units, with(
-		Items.copper, 10
+		Items.copper, 1
 	    ));
 	    size = 3;
-	    health = 3200;
-	    itemCapacity = 2500;
-            hasPower: true;
+	    health = 3800;
+	    itemCapacity = 3000;
+            hasPower = true;
             outputsPower = 150f / 60f;
 	    alwaysUnlocked = isFirstTier = true;
 
-	    //unitType = OblivionUnits.citizen;
+	    //unitType =;
 	}};
 
         floorArkans = new Floor("floor-arkans");
