@@ -45,9 +45,7 @@ public class StellarBlocks {
     public static void load() {
 
         //Arkans
-        coreA = new CoreBlock ("core-a") {{
-            //TODO: requirements (());
-
+        coreA = new CoreBlock("core-a"){{
             size: 3;
             health: 3800;
             itemCapacity: 3000;
