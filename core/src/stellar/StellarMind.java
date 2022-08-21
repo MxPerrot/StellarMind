@@ -12,7 +12,7 @@ public class StellarMind extends Mod{
     }
     @Override
     public void loadContent(){
-        StellarMlanets.load();
+        StellarPlanets.load();
         StellarBlocks.load();
     }
 }
