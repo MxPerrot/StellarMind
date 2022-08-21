@@ -19,12 +19,12 @@ import mindustry.world.blocks.environment.*;
 
 
 import stellar.content.*;
-import stellar.content.SBlocks.*;
+import stellar.content.StellarBlocks.*;
 
 
 public class ArkansPlanetGenerator extends PlanetGenerator {
 
-    Block[] terrain = {SBlocks.floorArkans, Blocks.water};
+    Block[] terrain = {StellarBlocks.floorArkans, Blocks.water};
 
     float scl = 2.7f;
 
@@ -48,7 +48,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         Block block = getBlock(position);
         float tnoise = 1f;
 
-        if(block == SBlocks.floorArkans) block = SBlocks.floorArkans;
+        if(block == StellarBlocks.floorArkans) block = StellarBlocks.floorArkans;
 
         return Tmp.c1.set(block.mapColor).mul(tnoise).a(1f - block.albedo);
     }
@@ -108,7 +108,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         float rad = scl;
         float temp = Mathf.clamp(Math.abs(position.y * 2f) / (rad));
 
-        Block result = SBlocks.floorArkans;
+        Block result = StellarBlocks.floorArkans;
 
         return result;
     }
