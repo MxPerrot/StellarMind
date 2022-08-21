@@ -46,7 +46,7 @@ public class StellarBlocks {
         //Sandbox
         
 
-    public static void load() {
+    public void load() {
 
         //Arkans
         coreA = new CoreBlock("core-a"){{
