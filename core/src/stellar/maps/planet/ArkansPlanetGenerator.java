@@ -49,7 +49,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     }
 
     @Override
-    public void generateSector(Sector, sector){
+    public void generateSector(Sector sector){
 
     }
 
