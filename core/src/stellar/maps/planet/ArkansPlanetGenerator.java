@@ -22,7 +22,11 @@ import static mindustry.Vars.*;
 
 public class ArkansPlanetGenerator extends PlanetGenerator {
 
-   public static final int seed = 1f;
+   public static final int seed = 1;
+
+   float scl = 5f;
+   float waterOffset = 0.07f;
+   boolean genLakes = false;
 
     public Block[][] arr =
     {
@@ -71,7 +75,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         tile.floor = getBlock(position);
         tile.block = tile.floor.asFloor().wall;
 
-        if(Riged.noise3d(1, position.x, position.y, position.z, 2, 22) > 0.31f){
+        if(Ridged.noise3d(1, position.x, position.y, position.z, 2, 22) > 0.31f){
             tile.block = Blocks.air;
         }
     }
