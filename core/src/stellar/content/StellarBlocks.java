@@ -46,6 +46,10 @@ public class StellarBlocks {
 
         //Arkans
         coreA = new CoreBlock("core-a"){{
+            requirements(Category.units, with(
+                Items.copper, 1
+	    ));
+
             size: 3;
             health: 3800;
             itemCapacity: 3000;
@@ -54,7 +58,7 @@ public class StellarBlocks {
             outputsPower = 150f / 60f;
 
             //TODO
-            //unitType =;
+            unitType = Units.emanate;
         }};
 
 
