@@ -14,5 +14,6 @@ public class StellarMind extends Mod{
     public void loadContent(){
         new StellarPlanets().load();
         new StellarBlocks().load();
+        new StellarEnvironment().load();
     }
 }
