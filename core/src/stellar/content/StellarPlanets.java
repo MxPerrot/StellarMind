@@ -11,12 +11,11 @@ import mindustry.world.*;
 import stellar.*;
 import stellar.maps.planet.ArkansPlanetGenerator;
 
-public class SPlanets {
+public class StellarPlanets {
     
     public static Planet
     elios,
-    arkans,
-    stella;
+    arkans, stella;
     
     public static void load() {
         
