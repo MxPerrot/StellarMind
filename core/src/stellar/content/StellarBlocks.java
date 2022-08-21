@@ -49,22 +49,19 @@ public class StellarBlocks {
     public void load() {
 
         //Arkans
-        coreA = new CoreBlock("core-a"){{
-            requirements(Category.units, with(
-                Items.copper, 1
+        coreTest = new CoreBlock("core-test") {{
+	    requirements(Category.units, with(
+		Items.copper, 10
 	    ));
+	    size = 3;
+	    health = 3200;
+	    itemCapacity = 2500;
+            hasPower: true;
+            outputsPower = 150f / 60f;
+	    alwaysUnlocked = isFirstTier = true;
 
-            size: 3;
-            health: 3800;
-            itemCapacity: 3000;
-            alwaysUnlocked = isFirstTier = true;
-            //hasPower: true;
-            //outputsPower = 150f / 60f;
-
-            //TODO
-            unitType = Units.emanate;
-        }};
-
+	    //unitType = OblivionUnits.citizen;
+	}};
 
         floorArkans = new Floor("floor-arkans");
 
