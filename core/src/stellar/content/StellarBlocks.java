@@ -53,7 +53,7 @@ public class StellarBlocks {
 	    requirements(Category.effect, with(
 		Items.copper, 1
 	    ));
-	    size = 3;
+	    size = 4;
 	    health = 3800;
 	    itemCapacity = 3000;
 	    alwaysUnlocked = isFirstTier = true;
