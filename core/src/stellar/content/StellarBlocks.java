@@ -1,7 +1,7 @@
 package stellar.content;
 
+import arc.*;
 import arc.Core;
-impimport arc.*;
 import arc.util.*;
 import arc.math.*;
 import arc.struct.*;
@@ -46,9 +46,7 @@ public class StellarBlocks {
 
         //Arkans
         coreA = new CoreBlock ("core-a") {{
-            //requirements ((
-                //TODO
-            //));
+            //TODO: requirements (());
 
             size: 3;
             health: 3800;
@@ -57,11 +55,12 @@ public class StellarBlocks {
             hasPower: true;
             outputsPower = 150f / 60f;
 
+            //TODO
             //unitType =;
-        }}
+        }};
 
 
-        floorArkans = new Floor("floor-arkans") 
+        floorArkans = new Floor("floor-arkans");
 
 
         // Production
