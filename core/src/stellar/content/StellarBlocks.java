@@ -36,7 +36,7 @@ public class StellarBlocks {
     public static Block
 
         //Arkans
-        coreA, floorArkans,
+        coreTest, floorArkans,
 
 
         //TODO Delete or rework
@@ -57,7 +57,7 @@ public class StellarBlocks {
 	    health = 3800;
 	    itemCapacity = 3000;
             hasPower = true;
-            outputsPower = 2.5f;
+            outputsPower = 2.5;
 	    alwaysUnlocked = isFirstTier = true;
 
 	    //unitType =;
