@@ -38,7 +38,9 @@ public class StellarBlocks {
         //Arkans
         coreA, floorArkans,
 
-        //Other 
+
+        //TODO Delete or rework
+        //Other
         largeCryofluidMixer;
        
         //Sandbox
@@ -57,7 +59,7 @@ public class StellarBlocks {
             itemCapacity: 3000;
             alwaysUnlocked = isFirstTier = true;
             //hasPower: true;
-            outputsPower = 150f / 60f;
+            //outputsPower = 150f / 60f;
 
             //TODO
             unitType = Units.emanate;
