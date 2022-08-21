@@ -61,10 +61,8 @@ public class StellarBlocks {
 	    //unitType =;
 	}};
 
-        floorArkans = new Floor("floor-arkans");
 
-
-        // Production
+        // Other
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
             requirements(Category.crafting, BuildVisibility.sandboxOnly, with(
                 Items.lead, 140,
