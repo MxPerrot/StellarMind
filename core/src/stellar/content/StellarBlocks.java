@@ -56,8 +56,6 @@ public class StellarBlocks {
 	    size = 3;
 	    health = 3800;
 	    itemCapacity = 3000;
-            hasPower = true;
-            outputsPower = true;
 	    alwaysUnlocked = isFirstTier = true;
 
 	    //unitType =;
