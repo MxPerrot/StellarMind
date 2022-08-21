@@ -50,7 +50,7 @@ public class StellarBlocks {
 
         //Arkans
         coreTest = new CoreBlock("core-test") {{
-	    requirements(Category.units, with(
+	    requirements(Category.effect, with(
 		Items.copper, 1
 	    ));
 	    size = 3;
