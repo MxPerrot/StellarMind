@@ -42,7 +42,7 @@ public class SPlanets {
         arkans = new Planet("arkans", elios, 1f, 2) {{
             generator = new ArkansPlanetGenerator();
             // Atmosphere
-            hasAmosphere = true;
+            hasAtmosphere = true;
             atmosphereColor = Color.valueOf("363f9a");
             atmosphereRadIn = 0.02f;
             atmosphereRadOut = 0.3f;
