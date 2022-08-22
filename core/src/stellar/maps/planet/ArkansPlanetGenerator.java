@@ -22,11 +22,11 @@ import static mindustry.Vars.*;
 
 public class ArkansPlanetGenerator extends PlanetGenerator {
 
-   public static final int seed = 1;
+    public static final int seed = 1;
 
-   float scl = 5f;
-   float waterOffset = 0.07f;
-   boolean genLakes = false;
+    float scl = 5f;
+    float waterOffset = 0.07f;
+    boolean genLakes = false;
 
     public Block[][] arr =
     {
@@ -89,12 +89,11 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         float tnoise = Simplex.noise3d(seed, 4, 0.56, 1f/3f, position.x, position.y + 999f, position.z);
         temp = Mathf.lerp(temp, tnoise, 0.5f);
 	height *= 1.2f;
-	height = Mathf.clamp(height);
+        height = Mathf.clamp(height);
+        float tar = Simplex.noise3d(seed, 4, 0.55f, 1f/2f, position.x, position.y + 999f, position.z) * 0.3f + Tmp.v31.dst(0, 0, 1f) * 0.2f;
 
-       float tar = Simplex.noise3d(seed, 4, 0.55f, 1f/2f, position.x, position.y + 999f, position.z) * 0.3f + Tmp.v31.dst(0, 0, 1f) * 0.2f;
-
-       Block res = arr[Mathf.clamp((int)(temp * arr.length), 0, arr[0].length - 1)][Mathf.clamp((int)(height * arr[0].length), 0, arr[0].length - 1)];
-           return res;
+        Block res = arr[Mathf.clamp((int)(temp * arr.length), 0, arr[0].length - 1)][Mathf.clamp((int)(height * arr[0].length), 0, arr[0].length - 1)];
+            return res;
     }
 
     @Override
