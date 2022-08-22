@@ -4,7 +4,7 @@ author: "Jobert Industries™"
 description: "Adds lot of things that are not existant for now."
 subtitle: "Hum.... Soon™ ?"
 version: 0.1 beta
-minGameVersion: 136
+minGameVersion: 137
 
 java: true
 main: "stellar.StellarMind"
