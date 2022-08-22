@@ -36,7 +36,7 @@ public class StellarBlocks {
     public static Block
 
         //Arkans
-        coreTest, floorArkans,
+        coreTest,
 
 
         //TODO Delete or rework
