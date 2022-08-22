@@ -96,7 +96,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     }
 
     @Override
-    public float noise(float x, float y, double octaves, double falloff, double scl, double mag){
+    protected float noise(float x, float y, double octaves, double falloff, double scl, double mag){
         Vec3 v = sector.rect.project(x, y).scl(5f);
         return Simplex.noise3d(seed, octaves, falloff, 1f / scl, v.x, v.y, v.z) * (float)mag;
     }
