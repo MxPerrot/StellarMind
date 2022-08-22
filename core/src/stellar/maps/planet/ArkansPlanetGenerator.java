@@ -33,17 +33,17 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     {StellarEnvironment.floorArkans}
     };
 
-    ObjectMap<Block, Block> dec = ObjectMap.of(
-        Blocks.sporeMoss, Blocks.sporeCluster,
-        Blocks.moss, Blocks.sporeCluster,
-        Blocks.taintedWater, Blocks.water,
-        Blocks.darksandTaintedWater, Blocks.darksandWater
-    );
+    //ObjectMap<Block, Block> dec = ObjectMap.of(
+        //Blocks.sporeMoss, Blocks.sporeCluster,
+        //Blocks.moss, Blocks.sporeCluster,
+        //Blocks.taintedWater, Blocks.water,
+        //Blocks.darksandTaintedWater, Blocks.darksandWater
+    //);
 
-    ObjectMap<Block, Block> tars = ObjectMap.of(
-        Blocks.sporeMoss, Blocks.shale,
-        Blocks.moss, Blocks.shale
-    );
+    //ObjectMap<Block, Block> tars = ObjectMap.of(
+        //Blocks.sporeMoss, Blocks.shale,
+        //Blocks.moss, Blocks.shale
+    //);
 
     float water = 0;
 
