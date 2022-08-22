@@ -66,7 +66,6 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     @Override
     public Color getColor(Vec3 position){
         Block block = getBlock(position);
-        if(block == Blocks.salt) return Blocks.sand.mapColor;
         return Tmp.c1.set(block.mapColor).a(1f - block.albedo);
     }
 
