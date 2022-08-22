@@ -34,15 +34,15 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     };
 
     ObjectMap<Block, Block> dec = ObjectMap.of(
-    Blocks.sporeMoss, Blocks.sporeCluster,
-    Blocks.moss, Blocks.sporeCluster,
-    Blocks.taintedWater, Blocks.water,
-    Blocks.darksandTaintedWater, Blocks.darksandWater
+        Blocks.sporeMoss, Blocks.sporeCluster,
+        Blocks.moss, Blocks.sporeCluster,
+        Blocks.taintedWater, Blocks.water,
+        Blocks.darksandTaintedWater, Blocks.darksandWater
     );
 
     ObjectMap<Block, Block> tars = ObjectMap.of(
-    Blocks.sporeMoss, Blocks.shale,
-    Blocks.moss, Blocks.shale
+        Blocks.sporeMoss, Blocks.shale,
+        Blocks.moss, Blocks.shale
     );
 
     float water = 0;
