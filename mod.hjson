@@ -1,21 +1,22 @@
 {
-    "name": "stellar-mind",
-    "displayName": "Stellar Mind",
-    "author": "Jobert Industries™",
-    "repo": "HubertBDLB/StellarMind",
-
-    "subtitle": "Hum.... Soon™ ?",
-    "description": 
-    ```
-    A mod that will do thing (I don't know for now), still very new and in development!
-    
-    Supported Language: English and French 
-    ```
-
-    "version": "0.1",
-    "minGameVersion": 137,
-
-    "hidden": false,
-    "java": true,
-    "main": "stellar.StellarMind"
+  "name": "stellar-mind",
+  "displayName": "[#855bab[]]Stellar [white]Mind[[]]",
+  "author": "Jobert [#bebebe[]]Industries[[]]",
+  "repo": "HubertBDLB/StellarMind",
+  
+  "subtitle": "Soon™",
+  "description": 
+  ```
+  Not that much, still very new.
+  
+  Support Language: English and French.
+  ```
+  
+  "version": "0.1",
+  "minGameVersion": "v137",
+  "dependencies": [],
+  "hidden": false,
+  
+  "java": true,
+  "main": "stellar.StellarMind"
 }
