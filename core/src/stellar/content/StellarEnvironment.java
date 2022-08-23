@@ -14,6 +14,7 @@ public class StellarEnvironment {
 
         //Arkans
         floorArkans = new Floor("floor-arkans") {{
+            attributes.set(Attribute.water, -0.25f);
             mapColor = Color.valueOf("ad190e");
         }};
     }
