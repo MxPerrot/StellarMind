@@ -6,14 +6,14 @@
   
   "subtitle": "Soon™",
   "description": 
-  ```
+  '''
   Not that much, still very new.
   
   Support Language: English and French.
-  ```
+  '''
   
   "version": "0.1",
-  "minGameVersion": "137",
+  "minGameVersion": "v137",
   "dependencies": [],
   "hidden": false,
   
