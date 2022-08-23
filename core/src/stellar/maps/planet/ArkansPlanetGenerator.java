@@ -29,7 +29,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     boolean genLakes = false;
 
     public Block[] terrain = {
-        StellarEnvironment.floorArkans
+        StellarEnvironment.test
     };
 
     float water = 0;
@@ -53,7 +53,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
     @Override
     public Color getColor(Vec3 position) {
         Block block = getBlock(position);
-        if(block == StellarEnvironment.floorArkans) return Blocks.sand.mapColor;
+        //if(block == StellarEnvironment.test) return Blocks.sand.mapColor;
         return Tmp.c1.set(block.mapColor).a(1f - block.albedo);
     }
 
