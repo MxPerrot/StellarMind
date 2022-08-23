@@ -52,7 +52,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
 
     @Override
     public Color getColor(Vec3 position) {
-        getBlock(position).mapColor;
+        return getBlock(position).mapColor;
     }
 
     @Override
