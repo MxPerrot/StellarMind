@@ -79,7 +79,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
         height = Mathf.clamp(height);
         float tar = Simplex.noise3d(seed, 4, 0.55f, 1f/2f, position.x, position.y + 999f, position.z) * 0.3f + Tmp.v31.dst(0, 0, 1f) * 0.2f;
 
-        Block res = StellarEnvironment.floorArkans;
+        Block res = StellarEnvironment.test;
             return res;
     }
 
