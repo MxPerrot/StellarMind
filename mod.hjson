@@ -1,10 +1,21 @@
-displayName: "Stellar Mind"
-name: "stellar-mind"
-author: "Jobert Industries™"
-description: "Adds lot of things that are not existant for now."
-subtitle: "Hum.... Soon™ ?"
-version: 0.1 beta
-minGameVersion: 137
+{
+    "name": "stellar-mind",
+    "displayName": "Stellar Mind",
+    "author": "Jobert Industries™",
+    "repo": "HubertBDLB/StellarMind",
 
-java: true
-main: "stellar.StellarMind"
+    "subtitle": "Hum.... Soon™ ?"
+    "description": 
+    ```
+    A mod that will do thing (I don't know for now), still very new and in development!
+    
+    Supported Language: English and French 
+    ```
+
+    "version": "0.1",
+    "minGameVersion": 137,
+
+    "hidden": false,
+    "java": true,
+    "main": "stellar.StellarMind"
+}
