@@ -13,7 +13,7 @@
   '''
   
   "version": "0.1",
-  "minGameVersion": "v137",
+  "minGameVersion": "137",
   "dependencies": [],
   "hidden": false,
   
