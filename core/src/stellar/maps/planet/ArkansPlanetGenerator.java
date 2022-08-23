@@ -52,7 +52,7 @@ public class ArkansPlanetGenerator extends PlanetGenerator {
 
     @Override
     public Color getColor(Vec3 position) {
-        getBlock(position).mapColor;
+        Block block = getBlock(position).mapColor;
         if(block == StellarEnvironment.floorArkans) return StellarEnvironment.floorArkans.mapColor;
         return Tmp.c1.set(block.mapColor).a(1f - block.albedo);
     }
