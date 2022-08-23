@@ -4,6 +4,8 @@ import arc.graphics.*;
 import mindustry.world.*;
 import mindustry.content.*;
 import mindustry.world.meta.*;
+import mindustry.world.Block;
+import mindustry.world.blocks.*;
 import mindustry.world.blocks.environment.*;
 
 public class StellarEnvironment {
