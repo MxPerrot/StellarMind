@@ -12,11 +12,11 @@ public class StellarResources {
     //public static Liquid
 
     public static Seq<Item> arkansItems = new Seq<>();
-	public static Seq<Liquid> arkansLiquids = new Seq<>();
+	//public static Seq<Liquid> arkansLiquids = new Seq<>();
 	
 	public void load() {
-	    aurase = new Item("aurase", Color.valueOf("007fff")) {{cost: 2f;}};
-	    
+	    aurase = new Item("aurase", Color.valueOf("007fff")) {{cost = 1.5f;}};
+
 	    arkansItems.addAll(aurase, sand);
 	}
 }
