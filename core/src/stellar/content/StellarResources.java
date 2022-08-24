@@ -17,6 +17,6 @@ public class StellarResources {
 	public void load() {
 	    aurase = new Item("aurase", Color.valueOf("007fff")) {{cost = 1.5f;}};
 
-	    arkansItems.addAll(auras, sand, silicon, graphite);
+	    arkansItems.addAll(aurase, sand, silicon, graphite);
 	}
 }
