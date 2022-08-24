@@ -32,7 +32,7 @@ import mindustry.world.blocks.defense.turrets.*;
 
 import static mindustry.type.ItemStack.*;
 
-public class StellarBlocks {
+public class stellarBlocks {
     public static Block
 
         //Arkans
@@ -58,7 +58,7 @@ public class StellarBlocks {
 	        itemCapacity = 3000;
 	        alwaysUnlocked = isFirstTier = true;
 	        hasPower = true;
-	        outputPower = (150f / 60f);
+            powerProduction = 150f / 60f;
 
 	    //unitType =;
 	}};
