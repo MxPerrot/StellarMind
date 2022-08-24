@@ -5,11 +5,11 @@ A **Java mod** for Mindustry, *created by 2 french men*, that is still very new 
 
 This mod will be developed when we have free time, so development is going to be slow !
 
-- - -
 
+- - -
 ## TO DO/PLANNED
 
-- [ ] First Planet (Arkans) - Theme volcanic | Lot specific thing, other few | Power rare...
+- [ ] First Planet (Arkans) - Hard Planet | Theme volcanic. Some ressources are abundant, other not. Power is hard to obtain.
     - [ ] Description
     - [ ] Generator - Kinda working
         - [ ] Floors - Mostly sand, red sand, rock, ...
@@ -18,25 +18,28 @@ This mod will be developed when we have free time, so development is going to be
     - [ ] Tech tree
        - [ ] Ores
        - [ ] Items
-       - [ ] Blocks (Core 1)
-    - [ ] Weather - Sandstorm, Ash storm?, Fire storm? ...
-    - [ ] Units
-
-
-## BUGS TO FIX
-
-None
+       - [ ] Blocks
+    - [ ] Weather - Sandstorm (clogged = slow), Ash storm? (less visibility?), ~~Fire storm?~~ ...
+    - [ ] Units 
 
 - - -
-## NEXT UPDATE (v0.1 or something like that)
+## BUGS TO FIX
 
-- Core T1 for Arkans (Core: Exapolis) - Missing sprite
-- 1 ores (Aurase) - Rework sprite
+- [ ] Seems like the *temporary* floor for Arkans can't load his texture.
+
+
+- - -
+## NEXT UPDATE
+
+### v0.1 (or something like that)
+- Core T1 for Arkans (Core: Exapolis) - Missing sprites (base, teamcolor, thruster)
+- 1 ores (Aurase) - Need rework sprite
 - ...
+
 
 - - -
 ## CHANGELOG
 
-### v0 (Literally, version 0)
+### v0 (literally, version 0)
 - [X] Transfer mod from HJSON to Java.
 - [X] Rename mod (`JoBert Factories` --> `Stellar Mind`)
