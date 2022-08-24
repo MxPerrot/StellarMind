@@ -18,7 +18,7 @@ This mod will be developed when we have free time, so development is going to be
     - [ ] Tech tree
        - [ ] Ores
        - [ ] Items
-       - [ ] Blocks
+       - [ ] Blocks (Core 1)
     - [ ] Weather - Sandstorm, Ash storm?, Fire storm? ...
     - [ ] Units
 
@@ -27,9 +27,16 @@ This mod will be developed when we have free time, so development is going to be
 
 None
 
+- - -
+## NEXT UPDATE (v0.1 or something like that)
 
-## DONE
+- Core T1 for Arkans (Core: Exapolis) - Missing sprite
+- 1 ores (Aurase) - Rework sprite
+- ...
 
+- - -
+## CHANGELOG
+
+### v0 (Literally, version 0)
 - [X] Transfer mod from HJSON to Java.
-- [X] Fix all typos (thanks to Hubert).
-
+- [X] Rename mod (`JoBert Factories` --> `Stellar Mind`)
