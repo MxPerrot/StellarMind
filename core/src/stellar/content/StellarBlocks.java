@@ -29,6 +29,7 @@ import mindustry.world.blocks.production.*;
 import mindustry.world.blocks.environment.*;
 import mindustry.world.blocks.distribution.*;
 import mindustry.world.blocks.defense.turrets.*;
+import stellar.content.StellarResources;
 
 import static mindustry.type.ItemStack.*;
 
@@ -36,7 +37,7 @@ public class StellarBlocks {
     public static Block
 
         //Arkans
-        coreTest,
+        coreExapolis,
 
 
         //TODO Delete or rework
@@ -49,9 +50,11 @@ public class StellarBlocks {
     public void load() {
 
         //Arkans
-        coreTest = new CoreBlock("core-test") {{
+        coreExapolis = new CoreBlock("core-exapolis") {{
 	    requirements(Category.effect, with(
-		    Items.copper, 1
+	        //Items.???
+	        Items.silicon, 1400
+		    StellarResources.aurase, 1000
 	    ));
 	    size = 4;
 	    health = 3800;
