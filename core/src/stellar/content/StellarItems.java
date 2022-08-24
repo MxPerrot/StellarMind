@@ -6,7 +6,7 @@ import mindustry.type.*;
 
 import static mindustry.content.Items.*;
 
-public class StellarResources {
+public class StellarItems {
     public static Item
         aurase;
 
