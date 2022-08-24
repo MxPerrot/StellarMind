@@ -7,7 +7,8 @@ import mindustry.type.*;
 import static mindustry.content.Items.*;
 
 public class StellarResources {
-    public static Item aurase;
+    public static Item
+        aurase;
 
     //public static Liquid
 
