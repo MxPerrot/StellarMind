@@ -54,7 +54,7 @@ public class StellarBlocks {
 	    requirements(Category.effect, with(
 	        //Items.???
 	        Items.silicon, 1400,
-		    StellarResources.aurase, 1000
+		    StellarItems.aurase, 1000
 	    ));
 	    size = 4;
 	    health = 3800;
