@@ -33,59 +33,59 @@ import mindustry.world.blocks.defense.turrets.*;
 import static mindustry.type.ItemStack.*;
 
 public class StellarBlocks {
-public static Block
+    public static Block
 
-//Arkans
-coreTest,
-
-
-//TODO Delete or rework
-//Other
-largeCryofluidMixer;
-
-//Sandbox
+        //Arkans
+        coreTest,
 
 
-public void load() {
+        //TODO Delete or rework
+        //Other
+        largeCryofluidMixer;
 
-//Arkans
-coreTest = new CoreBlock("core-test") {{
-requirements(Category.effect, with(
-Items.copper, 1
-));
-size = 4;
-health = 3800;
-itemCapacity = 3000;
-alwaysUnlocked = isFirstTier = true;
-hasPower = true
-outputPower = (150f / 60f);
-
-//unitType =;
-}};
+        //Sandbox
 
 
-// Other
-largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
-requirements(Category.crafting, BuildVisibility.sandboxOnly, with(
-Items.lead, 140,
-Items.titanium, 130,
-Items.silicon, 90,
-Items.metaglass, 30
-));
-size = 3;
-health = 340;
+    public void load() {
 
-hasPower = hasItems = hasLiquids = true;
-itemCapacity = 20;
-liquidCapacity = 38f;
-craftTime = 15;
+        //Arkans
+        coreTest = new CoreBlock("core-test") {{
+	        requirements(Category.effect, with(
+		        Items.copper, 1
+	        ));
+	        size = 4;
+	        health = 3800;
+	        itemCapacity = 3000;
+	        alwaysUnlocked = isFirstTier = true;
+	        hasPower = true;
+	        outputPower = (150f / 60f);
 
-consumePower(1.5f);
-consumeItem(Items.titanium, 1);
-consumeLiquid(Liquids.water, 1f);
-outputLiquid = new LiquidStack(Liquids.cryofluid, 1f);
+	    //unitType =;
+	}};
 
-drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
-}};
-}
+
+        // Other
+        largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
+            requirements(Category.crafting, BuildVisibility.sandboxOnly, with(
+                Items.lead, 140,
+                Items.titanium, 130,
+                Items.silicon, 90,
+                Items.metaglass, 30
+            ));
+            size = 3;
+            health = 340;
+
+            hasPower = hasItems = hasLiquids = true;
+            itemCapacity = 20;
+            liquidCapacity = 38f;
+            craftTime = 15;
+
+            consumePower(1.5f);
+            consumeItem(Items.titanium, 1);
+            consumeLiquid(Liquids.water, 1f);
+            outputLiquid = new LiquidStack(Liquids.cryofluid, 1f);
+
+            drawer = new DrawMulti(new DrawRegion ("-bottom"), new DrawLiquidTile(Liquids.water), new DrawLiquidTile(Liquids.cryofluid), new DrawDefault());
+        }};
+    }
 }
