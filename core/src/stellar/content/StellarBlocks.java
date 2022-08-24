@@ -22,6 +22,7 @@ import mindustry.world.draw.*;
 import mindustry.world.blocks.*;
 import mindustry.world.blocks.units.*;
 import mindustry.world.blocks.power.*;
+import mindustry.world.blocks.power.PowerGenerator;
 import mindustry.world.blocks.liquid.*;
 import mindustry.world.blocks.storage.*;
 import mindustry.world.blocks.defense.*;
