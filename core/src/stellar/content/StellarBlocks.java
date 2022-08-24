@@ -58,7 +58,7 @@ public class stellarBlocks {
 	        itemCapacity = 3000;
 	        alwaysUnlocked = isFirstTier = true;
 	        hasPower = true;
-            powerProduction = 150f / 60f;
+                powerProduction = 150f / 60f;
 
 	    //unitType =;
 	}};
