@@ -29,7 +29,7 @@ import mindustry.world.blocks.production.*;
 import mindustry.world.blocks.environment.*;
 import mindustry.world.blocks.distribution.*;
 import mindustry.world.blocks.defense.turrets.*;
-import stellar.content.StellarResources;
+import stellar.content.*;
 
 import static mindustry.type.ItemStack.*;
 
@@ -53,7 +53,7 @@ public class StellarBlocks {
         coreExapolis = new CoreBlock("core-exapolis") {{
 	    requirements(Category.effect, with(
 	        //Items.???
-	        Items.silicon, 1400
+	        Items.silicon, 1400,
 		    StellarResources.aurase, 1000
 	    ));
 	    size = 4;
