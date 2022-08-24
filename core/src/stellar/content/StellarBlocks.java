@@ -32,7 +32,7 @@ import mindustry.world.blocks.defense.turrets.*;
 
 import static mindustry.type.ItemStack.*;
 
-public class stellarBlocks {
+public class StellarBlocks {
     public static Block
 
         //Arkans
@@ -50,21 +50,21 @@ public class stellarBlocks {
 
         //Arkans
         coreTest = new CoreBlock("core-test") {{
-	        requirements(Category.effect, with(
-		        Items.copper, 1
-	        ));
-	        size = 4;
-	        health = 3800;
-	        itemCapacity = 3000;
-	        alwaysUnlocked = isFirstTier = true;
-	        hasPower = true;
-                powerProduction = 150f / 60f;
+	    requirements(Category.effect, with(
+		    Items.copper, 1
+	    ));
+	    size = 4;
+	    health = 3800;
+	    itemCapacity = 3000;
+	    alwaysUnlocked = isFirstTier = true;
+	    hasPower = true;
+            powerProduction = 5f;
 
 	    //unitType =;
 	}};
 
 
-        // Other
+        // Other TODO Delete or rework
         largeCryofluidMixer = new GenericCrafter("large-cryofluid-mixer"){{
             requirements(Category.crafting, BuildVisibility.sandboxOnly, with(
                 Items.lead, 140,
