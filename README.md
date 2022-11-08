@@ -1,6 +1,11 @@
 [![Mod Build](https://github.com/HubertBDLB/Jobert_Factories/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/HubertBDLB/Jobert_Factories/actions/workflows/build.yml)
 
 
+# This mod is for now... dead :)
+
+
+
+
 A **Java mod** for Mindustry, *created by 2 french men*, that is still very new and in heavy development.
 
 This mod will be developed when we have free time, so development is going to be slow !
@@ -20,7 +25,7 @@ This mod will be developed when we have free time, so development is going to be
        - [ ] Items
        - [ ] Blocks
     - [ ] Weather - Sandstorm (clogged = slow), Ash storm? (less visibility?), ~~Fire storm?~~ ...
-    - [ ] Units 
+    - [ ] Units ~~
 
 - - -
 ## BUGS TO FIX
